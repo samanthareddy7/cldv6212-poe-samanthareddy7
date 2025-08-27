@@ -1,0 +1,19 @@
+﻿@model ABC_Retail_Part1.Models.Order
+
+<h2>Place an Order</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label>Customer Name</label>
+        <input asp-for="CustomerName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Product Name</label>
+        <input asp-for="ProductName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Quantity</label>
+        <input asp-for="Quantity" class="form-control" type="number" />
+    </div>
+    <button type="submit" class="btn btn-success">Place Order</button>
+</form>

@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ABC_Retail_Part1.Models.Order>
+
+<h2>Orders</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Place Order</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Customer</th>
+            <th>Product</th>
+            <th>Quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.CustomerName</td>
+                <td>@order.ProductName</td>
+                <td>@order.Quantity</td>
+            </tr>
+        }
+    </tbody>
+</table>

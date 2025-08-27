@@ -1,0 +1,19 @@
+﻿@model IEnumerable<string>
+@{
+    ViewData["Title"] = "Upload Files";
+}
+
+<h2>Upload Files</h2>
+
+<form asp-action="UploadFile" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <button type="submit">Upload</button>
+</form>
+
+<h3>Files in Azure File Share:</h3>
+<ul>
+    @foreach (var f in Model)
+    {
+        <li>@f</li>
+    }
+</ul>

@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Queue Messages";
+}
+
+<h2>Send Queue Message</h2>
+
+<form asp-action="SendMessage" method="post">
+    <label>Customer</label>
+    <input type="text" name="customer" />
+    <label>Product</label>
+    <input type="text" name="product" />
+    <label>Quantity</label>
+    <input type="number" name="quantity" />
+    <button type="submit">Send Message</button>
+</form>
+
+<p>@ViewBag.Message</p>
+
