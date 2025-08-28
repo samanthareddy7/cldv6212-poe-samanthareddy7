@@ -1,7 +1,18 @@
 ﻿@model ABC_Retail_Part1.Models.Order
+@{
+    ViewData["Title"] = "Order Details";
+}
+
 <h2>Order Details</h2>
+
 <p><b>Customer:</b> @Model.CustomerName</p>
 <p><b>Product:</b> @Model.ProductName</p>
 <p><b>Quantity:</b> @Model.Quantity</p>
+<p><b>Order Date:</b> @Model.OrderDate?.ToString("yyyy-MM-dd HH:mm")</p>
 <p><b>RowKey:</b> @Model.RowKey</p>
-<p><a asp-action="Index">Back to List</a></p>
+
+<p>
+    <a asp-action="Edit" asp-route-rowKey="@Model.RowKey" class="btn btn-primary">Edit</a>
+    <a asp-action="Delete" asp-route-rowKey="@Model.RowKey" class="btn btn-danger">Delete</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</p>

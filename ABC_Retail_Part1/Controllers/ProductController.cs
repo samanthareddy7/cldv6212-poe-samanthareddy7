@@ -3,10 +3,8 @@ using Microsoft.AspNetCore.Http;
 using System;
 using System.IO;
 using System.Threading.Tasks;
-
 using ABC_Retail_Part1.Models;
 using ABC_Retail_Part1.Services;
-
 
 namespace ABC_Retail_Part1.Controllers
 {
@@ -15,7 +13,7 @@ namespace ABC_Retail_Part1.Controllers
         private readonly TableService _tableService;
         private readonly BlobService _blobService;
         private const string TableName = "Products";
-        private const string ContainerName = "productimages"; // must match your Azure Blob container
+        private const string ContainerName = "productimages";
 
         public ProductController(TableService tableService, BlobService blobService)
         {
@@ -40,7 +38,6 @@ namespace ABC_Retail_Part1.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Required for Azure Table
                 product.PartitionKey = "PRODUCT";
                 product.RowKey = Guid.NewGuid().ToString();
 
@@ -70,23 +67,29 @@ namespace ABC_Retail_Part1.Controllers
         // POST: Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string rowKey, Product product, IFormFile imageFile)
+        public async Task<IActionResult> Edit(string rowKey, Product model, IFormFile imageFile)
         {
-            if (rowKey != product.RowKey) return BadRequest();
-            if (!ModelState.IsValid) return View(product);
+            if (rowKey != model.RowKey) return BadRequest();
+            if (!ModelState.IsValid) return View(model);
 
-            product.PartitionKey = "PRODUCT";
+            var existing = await _tableService.GetAsync<Product>(TableName, "PRODUCT", rowKey);
+            if (existing == null) return NotFound();
+
+            // Update fields
+            existing.ProductName = model.ProductName;
+            existing.Description = model.Description;
+            existing.Price = model.Price;
 
             if (imageFile != null && imageFile.Length > 0)
             {
-                var blobName = $"{product.RowKey}{Path.GetExtension(imageFile.FileName)}";
+                var blobName = $"{existing.RowKey}{Path.GetExtension(imageFile.FileName)}";
                 using var stream = imageFile.OpenReadStream();
 
                 await _blobService.UploadBlobAsync(ContainerName, blobName, stream);
-                product.ImageUrl = _blobService.GetBlobUrl(ContainerName, blobName);
+                existing.ImageUrl = _blobService.GetBlobUrl(ContainerName, blobName);
             }
 
-            await _tableService.UpdateAsync(TableName, product);
+            await _tableService.UpdateAsync(TableName, existing);
             return RedirectToAction(nameof(Index));
         }
 

@@ -12,6 +12,8 @@
             <th>Customer</th>
             <th>Product</th>
             <th>Quantity</th>
+            <th>Order Date</th>
+            <th>Actions</th> <!-- New Actions column -->
         </tr>
     </thead>
     <tbody>
@@ -21,6 +23,12 @@
                 <td>@order.CustomerName</td>
                 <td>@order.ProductName</td>
                 <td>@order.Quantity</td>
+                <td>@order.OrderDate?.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>
+                    <a asp-action="Details" asp-route-rowKey="@order.RowKey" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Edit" asp-route-rowKey="@order.RowKey" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-rowKey="@order.RowKey" class="btn btn-danger btn-sm">Delete</a>
+                </td>
             </tr>
         }
     </tbody>

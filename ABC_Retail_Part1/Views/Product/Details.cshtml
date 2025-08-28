@@ -1,7 +1,24 @@
 ﻿@model ABC_Retail_Part1.Models.Product
+@{
+    ViewData["Title"] = "Product Details";
+}
+
 <h2>Product Details</h2>
-<p><b>Name:</b> @Model.ProductName</p>
-<p><b>Description:</b> @Model.Description</p>
-<p><b>Price:</b> @Model.Price</p>
-<p><b>RowKey:</b> @Model.RowKey</p>
-<p><a asp-action="Index">Back to List</a></p>
+
+<div class="mb-3">
+    <p><b>Name:</b> @Model.ProductName</p>
+    <p><b>Description:</b> @Model.Description</p>
+    <p><b>Price:</b> @Model.Price</p>
+    <p><b>RowKey:</b> @Model.RowKey</p>
+    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+    {
+        <p><b>Image:</b></p>
+        <img src="@Model.ImageUrl" alt="Product Image" width="150" />
+    }
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-rowKey="@Model.RowKey" class="btn btn-primary">Edit</a>
+    <a asp-action="Delete" asp-route-rowKey="@Model.RowKey" class="btn btn-danger">Delete</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</p>

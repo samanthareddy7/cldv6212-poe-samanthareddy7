@@ -1,8 +1,20 @@
 ﻿@model ABC_Retail_Part1.Models.Product
+@{
+    ViewData["Title"] = "Delete Product";
+}
+
 <h2>Delete Product</h2>
+
 <p>Are you sure you want to delete <b>@Model.ProductName</b>?</p>
+
+@if (!string.IsNullOrEmpty(Model.ImageUrl))
+{
+    <p>Current Image:</p>
+    <img src="@Model.ImageUrl" width="150" />
+}
+
 <form asp-action="Delete" method="post">
     <input type="hidden" name="rowKey" value="@Model.RowKey" />
     <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
-<p><a asp-action="Index">Back to List</a></p>

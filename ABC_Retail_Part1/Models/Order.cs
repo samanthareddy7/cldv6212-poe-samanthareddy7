@@ -9,7 +9,7 @@ namespace ABC_Retail_Part1.Models
         public string RowKey { get; set; } = Guid.NewGuid().ToString();
         public DateTimeOffset? Timestamp { get; set; }
         public ETag ETag { get; set; }
-        public DateTime OrderDate { get; set; }
+        public DateTime? OrderDate { get; set; }
 
 
         // Business fields

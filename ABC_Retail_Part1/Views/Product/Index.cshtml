@@ -13,6 +13,7 @@
             <th>Description</th>
             <th>Price</th>
             <th>Image</th>
+            <th>Actions</th> <!-- New column for buttons -->
         </tr>
     </thead>
     <tbody>
@@ -27,6 +28,11 @@
                     {
                         <img src="@item.ImageUrl" alt="Product Image" width="100" />
                     }
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-rowKey="@item.RowKey" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Edit" asp-route-rowKey="@item.RowKey" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-rowKey="@item.RowKey" class="btn btn-danger btn-sm">Delete</a>
                 </td>
             </tr>
         }
