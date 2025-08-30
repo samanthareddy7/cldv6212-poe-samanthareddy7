@@ -53,12 +53,17 @@ namespace ABC_Retail_Part1.Controllers
             // Insert into Azure Table
             await _tableService.InsertOrUpdateAsync(TableName, order);
 
-            // Send a message to the queue
+            // Send a message to the queue with correct local time
             if (_queueService != null)
             {
-                string message = $"New order placed: Customer={order.CustomerName}, Product={order.ProductName}, Quantity={order.Quantity}, Date={order.OrderDate:g}";
+                string orderTime = order.OrderDate.HasValue
+                    ? order.OrderDate.Value.ToLocalTime().ToString("g")
+                    : "N/A";
+
+                string message = $"New order placed: Customer={order.CustomerName}, Product={order.ProductName}, Quantity={order.Quantity}, Date={orderTime}";
                 await _queueService.SendMessageAsync("orderqueue", message);
             }
+
 
             Console.WriteLine($"Order created: {order.ProductName}, Quantity: {order.Quantity}");
 
