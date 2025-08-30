@@ -1,31 +1,124 @@
+/* Base font settings */
 html {
-  font-size: 14px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/* Body and background */
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background: linear-gradient(135deg, #ffc0cb, #ff69b4, #ff1493); /* pink gradient */
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+    color: #333; /* readable dark text */
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+/* Gradient animation */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+/* Navbar */
+.navbar {
+    background-color: rgba(255, 192, 203, 0.85);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Buttons focus */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #ff69b4;
+    border-color: #ff69b4;
+    outline: none;
+}
+
+/* Forms placeholders */
+.form-floating > .form-control-plaintext::placeholder,
+.form-floating > .form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder,
+.form-floating > .form-control:focus::placeholder {
+    text-align: start;
+}
+
+/* Footer styling */
+footer {
+    background-color: rgba(255, 182, 193, 0.9);
+    color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Tables */
+.table {
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    background-color: rgba(255,255,255,0.95);
+}
+
+/* Links */
+a {
+    color: #ff1493;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Inputs and form controls */
+input, select, textarea {
+    border-radius: 6px;
+    border: 1px solid #ffb6c1;
+    padding: 6px 10px;
+    transition: all 0.3s ease;
+}
+
+    input:focus, select:focus, textarea:focus {
+        border-color: #ff69b4;
+        box-shadow: 0 0 6px rgba(255,105,180,0.5);
+    }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Optional: subtle card hover effect */
+.card:hover {
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
 }
