@@ -9,26 +9,35 @@ namespace ABC_Retail_Part1.Controllers
     public class OrderController : Controller
     {
         private readonly TableService _tableService;
+        private readonly QueueService _queueService;
         private const string TableName = "Orders";
         private const string Partition = "ORDER";
 
-        public OrderController(TableService tableService)
+        public OrderController(TableService tableService, QueueService queueService)
         {
             _tableService = tableService;
+            _queueService = queueService;
         }
 
         // GET: Orders
         public async Task<IActionResult> Index()
         {
             var orders = await _tableService.GetAllAsync<Order>(TableName);
-            return View(orders);
+
+            // pull some messages to show on the page
+            var messages = await _queueService.GetMessagesAsync("orderqueue", maxMessages: 20, peekOnly: true);
+
+            var vm = new OrderIndexViewModel
+            {
+                Orders = orders,
+                QueueMessages = messages
+            };
+
+            return View(vm);
         }
 
         // GET: Create
-        public IActionResult Create()
-        {
-            return View();
-        }
+        public IActionResult Create() => View();
 
         // POST: Create
         [HttpPost]
@@ -39,12 +48,18 @@ namespace ABC_Retail_Part1.Controllers
 
             order.PartitionKey = Partition;
             order.RowKey = Guid.NewGuid().ToString();
-            order.OrderDate = DateTime.Now; order.OrderDate = DateTime.SpecifyKind(DateTime.Now, DateTimeKind.Utc);
+            order.OrderDate = DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Utc);
 
-
+            // Insert into Azure Table
             await _tableService.InsertOrUpdateAsync(TableName, order);
 
-            // Optional: log or notify
+            // Send a message to the queue
+            if (_queueService != null)
+            {
+                string message = $"New order placed: Customer={order.CustomerName}, Product={order.ProductName}, Quantity={order.Quantity}, Date={order.OrderDate:g}";
+                await _queueService.SendMessageAsync("orderqueue", message);
+            }
+
             Console.WriteLine($"Order created: {order.ProductName}, Quantity: {order.Quantity}");
 
             return RedirectToAction(nameof(Index));
@@ -83,20 +98,14 @@ namespace ABC_Retail_Part1.Controllers
             var existing = await _tableService.GetAsync<Order>(TableName, Partition, rowKey);
             if (existing == null) return NotFound();
 
-            // Update fields
             existing.CustomerName = model.CustomerName;
             existing.ProductName = model.ProductName;
             existing.Quantity = model.Quantity;
 
             if (model.OrderDate != null)
-            {
                 existing.OrderDate = DateTime.SpecifyKind(model.OrderDate.Value, DateTimeKind.Utc);
-            }
-
-
 
             await _tableService.UpdateAsync(TableName, existing);
-
             return RedirectToAction(nameof(Index));
         }
 
@@ -118,6 +127,16 @@ namespace ABC_Retail_Part1.Controllers
         {
             await _tableService.DeleteAsync(TableName, Partition, rowKey);
             return RedirectToAction(nameof(Index));
+        }
+
+        // GET: QueueMessages
+        public async Task<IActionResult> QueueMessages()
+        {
+            if (_queueService == null)
+                return BadRequest("Queue service not available.");
+
+            var messages = await _queueService.GetMessagesAsync("orderqueue");
+            return View(messages);
         }
     }
 }

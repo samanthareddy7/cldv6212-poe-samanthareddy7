@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ABC_Retail_Part1.Models.Order>
+﻿@model ABC_Retail_Part1.Models.OrderIndexViewModel
 
 <h2>Orders</h2>
 
@@ -12,18 +12,21 @@
             <th>Customer</th>
             <th>Product</th>
             <th>Quantity</th>
-            <th>Order Date</th>
-            <th>Actions</th> <!-- New Actions column -->
+            <th>Date</th>
+            <th>Actions</th> <!-- Actions column -->
         </tr>
     </thead>
     <tbody>
-        @foreach (var order in Model)
+        @foreach (var order in Model.Orders)
         {
             <tr>
                 <td>@order.CustomerName</td>
                 <td>@order.ProductName</td>
                 <td>@order.Quantity</td>
-                <td>@order.OrderDate?.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>
+                    @* Safely display OrderDate in local time *@
+                    @order.OrderDate?.ToLocalTime().ToString("g")
+                </td>
                 <td>
                     <a asp-action="Details" asp-route-rowKey="@order.RowKey" class="btn btn-info btn-sm">Details</a>
                     <a asp-action="Edit" asp-route-rowKey="@order.RowKey" class="btn btn-primary btn-sm">Edit</a>
@@ -33,3 +36,21 @@
         }
     </tbody>
 </table>
+
+<hr />
+
+<h3>Queue Messages</h3>
+
+@if (Model.QueueMessages != null && Model.QueueMessages.Any())
+{
+    <ul class="list-group">
+        @foreach (var msg in Model.QueueMessages)
+        {
+            <li class="list-group-item">@msg</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No queue messages yet.</p>
+}
