@@ -1,7 +1,10 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 /* Base font settings */
 html {
     font-size: 14px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     min-height: 100%;
 }
@@ -12,27 +15,40 @@ html {
     }
 }
 
-/* Body and background */
+/* Body and background - light pink top to darker pink bottom with swirl overlay */
 body {
     margin-bottom: 60px;
-    background: linear-gradient(135deg, #ffc0cb, #ff69b4, #ff1493); /* pink gradient */
-    background-size: 400% 400%;
-    animation: gradientMove 15s ease infinite;
-    color: #333; /* readable dark text */
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ffe4e1 0%, #ffc0cb 50%, #ff69b4 100%);
+    position: relative;
+    color: #333;
+    overflow-x: hidden;
 }
 
-/* Gradient animation */
-@keyframes gradientMove {
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at 50% 100%, rgba(255, 182, 193, 0.25), transparent 50%), radial-gradient(circle at 25% 90%, rgba(255, 105, 180, 0.15), transparent 50%);
+        pointer-events: none;
+        z-index: 0;
+    }
+
+/* Swirl animation */
+@keyframes gradientSwirl {
     0% {
-        background-position: 0% 50%;
+        background-position: 0% 100%, 100% 100%;
     }
 
     50% {
-        background-position: 100% 50%;
+        background-position: 50% 90%, 50% 90%;
     }
 
     100% {
-        background-position: 0% 50%;
+        background-position: 0% 100%, 100% 100%;
     }
 }
 
@@ -54,18 +70,6 @@ body {
     outline: none;
 }
 
-/* Forms placeholders */
-.form-floating > .form-control-plaintext::placeholder,
-.form-floating > .form-control::placeholder {
-    color: var(--bs-secondary-color);
-    text-align: end;
-}
-
-.form-floating > .form-control-plaintext:focus::placeholder,
-.form-floating > .form-control:focus::placeholder {
-    text-align: start;
-}
-
 /* Footer styling */
 footer {
     background-color: rgba(255, 182, 193, 0.9);
@@ -74,18 +78,132 @@ footer {
     text-align: center;
 }
 
-/* Tables */
-.table {
-    background-color: rgba(255,255,255,0.9);
-    border-radius: 8px;
-    overflow: hidden;
+/* Table headers */
+.table th {
+    background: linear-gradient(135deg, #b8860b, #ffd700);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif; /* table header font */
 }
 
-/* Cards */
-.card {
+    .table th:hover {
+        background: linear-gradient(135deg, #ffd700, #b8860b);
+        transform: scale(1.05);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+/* Table body */
+.table td {
+    background-color: rgba(255, 182, 193, 0.85);
+    color: #333;
+    text-align: center;
+    padding: 10px 12px;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif; /* table body font */
+    font-weight: 500;
+}
+
+.table tbody tr:hover td {
+    background-color: rgba(255, 192, 203, 0.5);
+}
+
+/* Alternate row coloring */
+.table tbody tr:nth-child(even) td {
+    background-color: rgba(255, 192, 203, 0.75);
+}
+
+/* Cards / table wrapper */
+.table-card {
+    background-color: rgba(255, 182, 193, 0.9);
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    background-color: rgba(255,255,255,0.95);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .table-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+    }
+
+/* Action buttons */
+.btn-details, .btn-edit, .btn-delete, .btn-primary {
+    transition: all 0.3s ease;
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+
+.btn-details {
+    background-color: #ff66a3;
+}
+
+    .btn-details:hover {
+        background-color: #ff4d94;
+        transform: scale(1.15) rotate(-2deg);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+    }
+
+.btn-edit {
+    background-color: #6495ED;
+}
+
+    .btn-edit:hover {
+        background-color: #4169E1;
+        transform: scale(1.15) rotate(-2deg);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+    }
+
+.btn-delete {
+    background-color: #800020;
+}
+
+    .btn-delete:hover {
+        background-color: #66001a;
+        color: white; /* ensure white text on hover */
+        transform: scale(1.15) rotate(-2deg);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+    }
+
+.btn-primary {
+    background-color: #ff66a3;
+}
+
+    .btn-primary:hover {
+        background-color: #e0558f;
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+/* Buttons spacing */
+.action-buttons .btn {
+    margin: 2px;
+}
+
+/* Queue messages styling */
+.queue-messages .list-group-item {
+    background-color: #ffe4e1;
+    color: #333;
+    border: 1px solid #ffb6c1;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+    .queue-messages .list-group-item:hover {
+        background-color: #ffc0cb;
+    }
+
+/* Product images */
+.product-image {
+    width: 100px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 /* Links */
@@ -98,27 +216,19 @@ a {
         text-decoration: underline;
     }
 
-/* Inputs and form controls */
-input, select, textarea {
-    border-radius: 6px;
-    border: 1px solid #ffb6c1;
-    padding: 6px 10px;
-    transition: all 0.3s ease;
-}
-
-    input:focus, select:focus, textarea:focus {
-        border-color: #ff69b4;
-        box-shadow: 0 0 6px rgba(255,105,180,0.5);
-    }
-
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     color: #333;
 }
 
-/* Optional: subtle card hover effect */
-.card:hover {
-    transform: translateY(-3px);
-    transition: all 0.3s ease;
+/* Emoji styling inside buttons */
+.btn span.emoji {
+    margin-right: 4px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover span.emoji {
+    transform: scale(1.2) rotate(-10deg);
 }
