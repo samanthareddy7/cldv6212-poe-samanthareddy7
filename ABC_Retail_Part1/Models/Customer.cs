@@ -13,5 +13,9 @@ namespace ABC_Retail_Part1.Models
         // Business fields
         public string Name { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
+
+
+
+
     }
 }

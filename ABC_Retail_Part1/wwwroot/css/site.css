@@ -232,3 +232,13 @@ h1, h2, h3, h4, h5, h6 {
 .btn:hover span.emoji {
     transform: scale(1.2) rotate(-10deg);
 }
+
+.btn-pink {
+    background-color: #ff69b4; /* hot pink */
+    color: white;
+    border: none;
+}
+
+    .btn-pink:hover {
+        background-color: #ff85c1; /* lighter pink on hover */
+    }

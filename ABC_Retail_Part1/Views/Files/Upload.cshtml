@@ -1,19 +1,56 @@
-﻿@model IEnumerable<string>
+﻿@model List<ABC_Retail_Part1.Models.FileViewModel>
 @{
-    ViewData["Title"] = "Upload Files";
+    var customerName = ViewBag.CustomerName as string ?? "general";
 }
 
-<h2>Upload Files</h2>
+<h2>Files for @customerName</h2>
 
 <form asp-action="UploadFile" method="post" enctype="multipart/form-data">
-    <input type="file" name="file" />
-    <button type="submit">Upload</button>
+    <div class="mb-3">
+        <label>Customer Name</label>
+        <input type="text" name="customerName" class="form-control" value="@customerName" />
+    </div>
+    <div class="mb-3">
+        <label>Select File</label>
+        <input type="file" name="file" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-pink">Upload</button>
 </form>
 
-<h3>Files in Azure File Share:</h3>
-<ul>
-    @foreach (var f in Model)
-    {
-        <li>@f</li>
-    }
-</ul>
+<hr />
+
+<h3>Files</h3>
+
+@if (Model.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Customer</th>
+                <th>File Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var file in Model)
+            {
+                <tr>
+                    <td>@file.CustomerName</td>
+                    <td>@file.FileName</td>
+                    <td>
+                        <a asp-action="DownloadFile" asp-route-customerName="@file.CustomerName" asp-route-fileName="@file.FileName" class="btn btn-primary btn-sm">Download</a>
+                        <form asp-action="DeleteFile" method="post" style="display:inline;">
+                            <input type="hidden" name="customerName" value="@file.CustomerName" />
+                            <input type="hidden" name="fileName" value="@file.FileName" />
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No files found for this customer.</p>
+}
