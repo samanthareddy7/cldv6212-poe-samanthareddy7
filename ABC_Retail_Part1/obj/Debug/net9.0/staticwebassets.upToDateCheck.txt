@@ -62,6 +62,10 @@ C:\Users\lab_services_student\source\repos\ABC_Retail_Part1\ABC_Retail_Part1\www
 C:\Users\lab_services_student\source\repos\ABC_Retail_Part1\ABC_Retail_Part1\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\0273a839714b331e11076f2fe2628191.jpg
+wwwroot\images\3d0a639a53a2b1ab1cca50c35de29a5e.jpg
+wwwroot\images\97d48161ba9f10b1d4b013354c0541ed.jpg
+wwwroot\images\istockphoto-980667436-612x612.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

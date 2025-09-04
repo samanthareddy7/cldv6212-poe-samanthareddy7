@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1\\ABC_Retail_Part1\\wwwroot\\images\\0273a839714b331e11076f2fe2628191.jpg",
+      "PackagePath": "staticwebassets\\images\\0273a839714b331e11076f2fe2628191.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1\\ABC_Retail_Part1\\wwwroot\\images\\3d0a639a53a2b1ab1cca50c35de29a5e.jpg",
+      "PackagePath": "staticwebassets\\images\\3d0a639a53a2b1ab1cca50c35de29a5e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1\\ABC_Retail_Part1\\wwwroot\\images\\97d48161ba9f10b1d4b013354c0541ed.jpg",
+      "PackagePath": "staticwebassets\\images\\97d48161ba9f10b1d4b013354c0541ed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1\\ABC_Retail_Part1\\wwwroot\\images\\istockphoto-980667436-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-980667436-612x612.jpg"
+    },
+    {
       "Id": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1\\ABC_Retail_Part1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
