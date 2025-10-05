@@ -1,17 +1,22 @@
-﻿using Azure.Storage.Files.Shares;
-using Azure.Storage.Files.Shares.Models;
+﻿using System.Buffers.Text;
 using System.Net.Http.Headers;
+using Azure.Storage.Files.Shares;
+using Azure.Storage.Files.Shares.Models;
 
 namespace ABC_Retail_Part1.Services
 {
     public class FileService
     {
         private readonly ShareServiceClient _client;
-        private static readonly HttpClient _http = new HttpClient();
+        private readonly HttpClient _http = new HttpClient();
+        private readonly string _baseUrl;
 
-        public FileService(string connectionString)
+
+        public FileService(string connectionString , string baseUrl)
         {
             _client = new ShareServiceClient(connectionString);
+            _http = new HttpClient();
+            _baseUrl = baseUrl;
         }
 
         public ShareClient GetShare(string name)
@@ -31,7 +36,7 @@ namespace ABC_Retail_Part1.Services
             var content = new StreamContent(stream);
             content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
 
-            var url = $"http://localhost:7073/api/contracts/{Uri.EscapeDataString(customerName)}";
+            var url = $"https://st10454507.azurewebsites.net/api/contracts/{Uri.EscapeDataString(customerName)}";
             var response = await _http.PostAsync(url, content);
             return response.IsSuccessStatusCode;
         }

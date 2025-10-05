@@ -2,11 +2,11 @@ using ABC_Retail_Part1.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 
 namespace ABC_Retail_Part1
 {
     public class Program
-    //final
     {
         public static void Main(string[] args)
         {
@@ -15,14 +15,19 @@ namespace ABC_Retail_Part1
             // Add MVC support
             builder.Services.AddControllersWithViews();
 
-            // Register Azure storage services (use dependency injection)
+            // Get Azure Storage connection string
             var connectionString = builder.Configuration["AzureStorage:ConnectionString"]
-                        ?? throw new InvalidOperationException("AzureStorage:ConnectionString not found.");
+                               ?? throw new InvalidOperationException("AzureStorage:ConnectionString not found.");
 
+            // Get deployed Functions URL from config
+            var functionsBaseUrl = builder.Configuration["FunctionsApi:BaseUrl"]
+                                 ?? throw new InvalidOperationException("FunctionsApi:BaseUrl not found.");
+
+            // Register services
             builder.Services.AddSingleton(new TableService(connectionString));
             builder.Services.AddSingleton(new BlobService(connectionString));
             builder.Services.AddSingleton(new QueueService(connectionString));
-            builder.Services.AddSingleton(new FileService(connectionString));
+            builder.Services.AddSingleton(new FileService(connectionString, functionsBaseUrl));
 
             var app = builder.Build();
 

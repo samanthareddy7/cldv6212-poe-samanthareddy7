@@ -46,7 +46,7 @@ namespace ABC_Retail_Part1.Services
             var content = new StreamContent(stream);
             content.Headers.ContentType = new MediaTypeHeaderValue(file.ContentType ?? "application/octet-stream");
 
-            var response = await _http.PostAsync("http://localhost:7073/api/uploadimage", content);
+            var response = await _http.PostAsync("https://st10454507.azurewebsites.net/api/uploadimage", content);
             if (!response.IsSuccessStatusCode) return null;
             var result = await response.Content.ReadAsStringAsync();
             return result.Contains("http") ? result.Split(' ').Last().Trim() : result;

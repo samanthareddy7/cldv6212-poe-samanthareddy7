@@ -30,9 +30,9 @@ namespace ABC_Retail_Part1.Services
 
             string? url = tableName.ToLower() switch
             {
-                "customers" => "http://localhost:7073/api/customers",
-                "orders" => "http://localhost:7073/api/orders",
-                "products" => "http://localhost:7073/api/products", 
+                "customers" => "https://st10454507.azurewebsites.net/api/customers",
+                "orders" => "https://st10454507.azurewebsites.net/api/orders",
+                "products" => "https://st10454507.azurewebsites.net/api/products", 
                 _ => null
             };
 

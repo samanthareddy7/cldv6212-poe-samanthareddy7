@@ -27,7 +27,7 @@ namespace ABC_Retail_Part1.Services
             var json = JsonConvert.SerializeObject(message);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-            var url = "http://localhost:7073/api/orders"; // Matches your Function endpoint
+            var url = "https://st10454507.azurewebsites.net/api/orders"; // Matches your Function endpoint
             var response = await _http.PostAsync(url, content);
 
             return response.IsSuccessStatusCode;

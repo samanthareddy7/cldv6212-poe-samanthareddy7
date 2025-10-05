@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ABC_Retail_Part2": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7073",
+      "launchBrowser": false
+    }
+  }
+}
