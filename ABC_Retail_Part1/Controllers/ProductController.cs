@@ -36,21 +36,24 @@ namespace ABC_Retail_Part1.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Product product, IFormFile imageFile)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
+                return View(product);
+
+            // Ensure required values
+            product.PartitionKey = "PRODUCT";
+            product.RowKey = Guid.NewGuid().ToString();
+
+            product.ProductName ??= "Unnamed Product";
+            product.Description ??= "No description";
+            product.Price = product.Price == 0 ? 1 : product.Price;
+
+            if (imageFile != null && imageFile.Length > 0)
             {
-                product.PartitionKey = "PRODUCT";
-                product.RowKey = Guid.NewGuid().ToString();
-
-                if (imageFile != null && imageFile.Length > 0)
-                {
-                    product.ImageUrl = await _blobService.UploadFileAsync(imageFile);
-                }
-
-                await _tableService.InsertAsync(TableName, product);
-                return RedirectToAction(nameof(Index));
+                product.ImageUrl = await _blobService.UploadFileAsync(imageFile);
             }
 
-            return View(product);
+            await _tableService.InsertAsync("Products", product);
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: Edit

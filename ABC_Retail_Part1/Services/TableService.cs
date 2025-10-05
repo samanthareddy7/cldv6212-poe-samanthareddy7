@@ -1,13 +1,14 @@
-﻿using Azure;
+﻿using System.Text;
+using Azure;
 using Azure.Data.Tables;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace ABC_Retail_Part1.Services
 {
     public class TableService
     {
         private readonly string _connectionString;
+        private static readonly HttpClient _http = new HttpClient();
 
         public TableService(string connectionString)
         {
@@ -21,37 +22,48 @@ namespace ABC_Retail_Part1.Services
             return client;
         }
 
-        // Insert a new entity
-        public async Task InsertAsync<T>(string tableName, T entity) where T : class, ITableEntity, new()
+        // Insert via your Function (Customers or Orders)
+        public async Task<bool> InsertAsync<T>(string tableName, T entity)
         {
-            var table = GetTable(tableName);
-            await table.AddEntityAsync(entity);
+            var json = JsonConvert.SerializeObject(entity);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            string? url = tableName.ToLower() switch
+            {
+                "customers" => "http://localhost:7073/api/customers",
+                "orders" => "http://localhost:7073/api/orders",
+                "products" => "http://localhost:7073/api/products", 
+                _ => null
+            };
+
+
+            if (url == null) throw new InvalidOperationException("No matching Function endpoint for this table.");
+
+            var response = await _http.PostAsync(url, content);
+            return response.IsSuccessStatusCode;
         }
 
-        // Insert or update an entity (upsert)
-        public async Task InsertOrUpdateAsync<T>(string tableName, T entity) where T : class, ITableEntity, new()
+        // Upsert directly to Azure Table (used by Product & Order editing)
+        public async Task InsertOrUpdateAsync<T>(string tableName, T entity)
+            where T : class, ITableEntity, new()
         {
             var table = GetTable(tableName);
             await table.UpsertEntityAsync(entity, TableUpdateMode.Replace);
         }
 
-        // Get all entities
+        // Get all
         public async Task<List<T>> GetAllAsync<T>(string tableName) where T : class, ITableEntity, new()
         {
             var table = GetTable(tableName);
-            var entities = table.QueryAsync<T>();
             var results = new List<T>();
-
-            await foreach (var e in entities)
-            {
+            await foreach (var e in table.QueryAsync<T>())
                 results.Add(e);
-            }
-
             return results;
         }
 
-        // Get a single entity by PartitionKey and RowKey
-        public async Task<T?> GetAsync<T>(string tableName, string partitionKey, string rowKey) where T : class, ITableEntity, new()
+        // Get single
+        public async Task<T?> GetAsync<T>(string tableName, string partitionKey, string rowKey)
+            where T : class, ITableEntity, new()
         {
             var table = GetTable(tableName);
             try
@@ -65,14 +77,15 @@ namespace ABC_Retail_Part1.Services
             }
         }
 
-        // Update an existing entity
-        public async Task UpdateAsync<T>(string tableName, T entity) where T : class, ITableEntity, new()
+        // Update
+        public async Task UpdateAsync<T>(string tableName, T entity)
+            where T : class, ITableEntity, new()
         {
             var table = GetTable(tableName);
             await table.UpdateEntityAsync(entity, ETag.All);
         }
 
-        // Delete an entity
+        // Delete
         public async Task DeleteAsync(string tableName, string partitionKey, string rowKey)
         {
             var table = GetTable(tableName);

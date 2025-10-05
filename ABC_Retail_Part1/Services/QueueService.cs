@@ -1,40 +1,39 @@
-﻿using Azure.Storage.Queues;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Text;
+using Azure.Storage.Queues;
+using Newtonsoft.Json;
 
 namespace ABC_Retail_Part1.Services
 {
     public class QueueService
     {
         private readonly QueueServiceClient _client;
+        private static readonly HttpClient _http = new HttpClient();
 
         public QueueService(string connectionString)
         {
             _client = new QueueServiceClient(connectionString);
         }
 
-        public QueueClient GetQueue(string queueName)
+        private QueueClient GetQueue(string name)
         {
-            var queue = _client.GetQueueClient(queueName);
+            var queue = _client.GetQueueClient(name);
             queue.CreateIfNotExists();
             return queue;
         }
 
-        // Send a message
-        public async Task SendMessageAsync(string queueName, string message)
+        // ✅ Send message via HTTP Function (not directly to Azure Queue)
+        public async Task<bool> SendMessageAsync(string queueName, object message)
         {
-            var queue = GetQueue(queueName);
-            await queue.SendMessageAsync(message);
+            var json = JsonConvert.SerializeObject(message);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            var url = "http://localhost:7073/api/orders"; // Matches your Function endpoint
+            var response = await _http.PostAsync(url, content);
+
+            return response.IsSuccessStatusCode;
         }
 
-        // Delete a message
-        public async Task DeleteMessageAsync(string queueName, string messageId, string popReceipt)
-        {
-            var queue = GetQueue(queueName);
-            await queue.DeleteMessageAsync(messageId, popReceipt);
-        }
-
-        // Retrieve messages (peek or consume)
+        // ✅ Retrieve messages directly from Azure Queue
         public async Task<List<string>> GetMessagesAsync(string queueName, int maxMessages = 20, bool peekOnly = true)
         {
             var queue = GetQueue(queueName);
@@ -42,18 +41,20 @@ namespace ABC_Retail_Part1.Services
 
             if (peekOnly)
             {
-                // Show messages without consuming them
                 var peeked = await queue.PeekMessagesAsync(maxMessages);
                 foreach (var m in peeked.Value)
-                    list.Add(m.MessageText);
+                {
+                    var decoded = Encoding.UTF8.GetString(Convert.FromBase64String(m.MessageText));
+                    list.Add(decoded);
+                }
             }
             else
             {
-                // Consume (receive + delete) to avoid duplicates
                 var received = await queue.ReceiveMessagesAsync(maxMessages);
                 foreach (var m in received.Value)
                 {
-                    list.Add(m.MessageText);
+                    var decoded = Encoding.UTF8.GetString(Convert.FromBase64String(m.MessageText));
+                    list.Add(decoded);
                     await queue.DeleteMessageAsync(m.MessageId, m.PopReceipt);
                 }
             }

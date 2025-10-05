@@ -30,11 +30,12 @@ namespace ABC_Retail_Part1.Controllers
 
 
         [HttpPost]
+        [HttpPost]
         public async Task<IActionResult> UploadFile(IFormFile file, string customerName)
         {
             if (file != null && file.Length > 0)
             {
-                await _fileService.UploadFileAsync("contracts", customerName, file.FileName, file.OpenReadStream());
+                await _fileService.UploadFileAsync(customerName, file); // ✅ only 2 arguments now
             }
             return RedirectToAction("Upload", new { customerName });
         }

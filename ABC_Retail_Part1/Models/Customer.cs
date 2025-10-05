@@ -14,6 +14,9 @@ namespace ABC_Retail_Part1.Models
         public string Name { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
 
+        public string CustomerName => Name;
+
+
 
 
 

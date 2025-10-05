@@ -1,4 +1,4 @@
-using ABC_Retail_Part1.Services;   
+using ABC_Retail_Part1.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 namespace ABC_Retail_Part1
 {
     public class Program
-        //final
+    //final
     {
         public static void Main(string[] args)
         {

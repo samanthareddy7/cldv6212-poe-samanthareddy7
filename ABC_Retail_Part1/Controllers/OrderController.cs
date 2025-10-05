@@ -36,8 +36,21 @@ namespace ABC_Retail_Part1.Controllers
             return View(vm);
         }
 
-        // GET: Create
-        public IActionResult Create() => View();
+        public async Task<IActionResult> Create()
+        {
+            var customers = await _tableService.GetAllAsync<Customer>("Customer");
+
+            ViewBag.CustomerList = customers
+                .Select(c => new Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
+                {
+                    Value = c.CustomerName,   // or c.RowKey if you want IDs
+                    Text = c.CustomerName     // show the name in dropdown
+                })
+                .ToList();
+
+            return View();
+        }
+
 
         // POST: Create
         [HttpPost]

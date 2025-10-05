@@ -5,11 +5,8 @@
 
 <h2>Files for @customerName</h2>
 
+<!-- File Upload Form -->
 <form asp-action="UploadFile" method="post" enctype="multipart/form-data">
-    <div class="mb-3">
-        <label>Customer Name</label>
-        <input type="text" name="customerName" class="form-control" value="@customerName" />
-    </div>
     <div class="mb-3">
         <label>Select File</label>
         <input type="file" name="file" class="form-control" />
@@ -26,7 +23,6 @@
     <table class="table table-bordered table-striped">
         <thead>
             <tr>
-                <th>Customer</th>
                 <th>File Name</th>
                 <th>Actions</th>
             </tr>
@@ -35,7 +31,6 @@
             @foreach (var file in Model)
             {
                 <tr>
-                    <td>@file.CustomerName</td>
                     <td>@file.FileName</td>
                     <td>
                         <a asp-action="DownloadFile" asp-route-customerName="@file.CustomerName" asp-route-fileName="@file.FileName" class="btn btn-primary btn-sm">Download</a>

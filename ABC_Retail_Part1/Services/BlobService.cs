@@ -1,4 +1,5 @@
 ﻿using Azure.Storage.Blobs;
+using System.Net.Http.Headers;
 
 namespace ABC_Retail_Part1.Services
 {
@@ -6,64 +7,52 @@ namespace ABC_Retail_Part1.Services
     {
         private readonly BlobServiceClient _client;
         private readonly string _accountName;
+        private static readonly HttpClient _http = new HttpClient();
 
         public BlobService(string connectionString)
         {
             _client = new BlobServiceClient(connectionString);
-
-            // extract account name from connection string
             _accountName = connectionString
                 .Split(';')
                 .FirstOrDefault(p => p.StartsWith("AccountName="))?
                 .Split('=')[1] ?? "";
         }
 
-        public BlobContainerClient GetContainer(string containerName)
+        public BlobContainerClient GetContainer(string name)
         {
-            var container = _client.GetBlobContainerClient(containerName);
+            var container = _client.GetBlobContainerClient(name);
             container.CreateIfNotExists();
             return container;
         }
 
-        public async Task UploadBlobAsync(string containerName, string fileName, Stream fileStream)
+        public async Task UploadBlobAsync(string containerName, string blobName, Stream stream)
         {
             var container = GetContainer(containerName);
-            var blob = container.GetBlobClient(fileName);
-            await blob.UploadAsync(fileStream, true);
+            var blob = container.GetBlobClient(blobName);
+            await blob.UploadAsync(stream, true);
         }
 
-        public async Task<string> UploadFileAsync(IFormFile file, string containerName = "productimages")
-        {
-            var blobName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
-
-            using var stream = file.OpenReadStream();
-            await UploadBlobAsync(containerName, blobName, stream);
-
-            return GetBlobUrl(containerName, blobName);
-        }
-
-        public async Task DeleteBlobAsync(string containerName, string fileName)
+        public async Task DeleteBlobAsync(string containerName, string blobName)
         {
             var container = GetContainer(containerName);
-            var blob = container.GetBlobClient(fileName);
+            var blob = container.GetBlobClient(blobName);
             await blob.DeleteIfExistsAsync();
         }
 
-        public async Task<List<string>> ListBlobsAsync(string containerName)
+        // Function call (for UploadProductImage)
+        public async Task<string?> UploadFileAsync(IFormFile file, string containerName = "productimages")
         {
-            var container = GetContainer(containerName);
-            var blobs = new List<string>();
-            await foreach (var blob in container.GetBlobsAsync())
-            {
-                blobs.Add(blob.Name);
-            }
-            return blobs;
+            using var stream = file.OpenReadStream();
+            var content = new StreamContent(stream);
+            content.Headers.ContentType = new MediaTypeHeaderValue(file.ContentType ?? "application/octet-stream");
+
+            var response = await _http.PostAsync("http://localhost:7073/api/uploadimage", content);
+            if (!response.IsSuccessStatusCode) return null;
+            var result = await response.Content.ReadAsStringAsync();
+            return result.Contains("http") ? result.Split(' ').Last().Trim() : result;
         }
 
-        // ✅ Add this method to fix your controller
-        public string GetBlobUrl(string containerName, string blobName)
-        {
-            return $"https://{_accountName}.blob.core.windows.net/{containerName}/{blobName}";
-        }
+        public string GetBlobUrl(string container, string blob)
+            => $"https://{_accountName}.blob.core.windows.net/{container}/{blob}";
     }
 }

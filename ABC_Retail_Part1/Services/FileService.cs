@@ -1,82 +1,74 @@
 ﻿using Azure.Storage.Files.Shares;
 using Azure.Storage.Files.Shares.Models;
+using System.Net.Http.Headers;
 
 namespace ABC_Retail_Part1.Services
 {
     public class FileService
     {
         private readonly ShareServiceClient _client;
+        private static readonly HttpClient _http = new HttpClient();
 
         public FileService(string connectionString)
         {
             _client = new ShareServiceClient(connectionString);
         }
 
-        public ShareClient GetShare(string shareName)
+        public ShareClient GetShare(string name)
         {
-            var share = _client.GetShareClient(shareName);
+            var share = _client.GetShareClient(name);
             share.CreateIfNotExists();
             return share;
         }
 
-        // Upload a file into a customer folder
-        public async Task UploadFileAsync(string shareName, string customerName, string fileName, Stream fileStream)
+        // Upload through Azure Function
+        public async Task<bool> UploadFileAsync(string customerName, IFormFile file)
         {
-            customerName = string.IsNullOrWhiteSpace(customerName) ? "general" : customerName;
-            var share = GetShare(shareName);
-            var rootDir = share.GetRootDirectoryClient();
-            var customerDir = rootDir.GetSubdirectoryClient(customerName);
-            await customerDir.CreateIfNotExistsAsync();
+            if (string.IsNullOrWhiteSpace(customerName)) customerName = "general";
+            if (file == null || file.Length == 0) return false;
 
-            var fileClient = customerDir.GetFileClient(fileName);
-            await fileClient.CreateAsync(fileStream.Length);
-            await fileClient.UploadAsync(fileStream);
+            using var stream = file.OpenReadStream();
+            var content = new StreamContent(stream);
+            content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
+
+            var url = $"http://localhost:7073/api/contracts/{Uri.EscapeDataString(customerName)}";
+            var response = await _http.PostAsync(url, content);
+            return response.IsSuccessStatusCode;
         }
 
-        // List files in a customer folder
         public async Task<List<string>> ListFilesAsync(string shareName, string customerName)
         {
             customerName = string.IsNullOrWhiteSpace(customerName) ? "general" : customerName;
             var share = GetShare(shareName);
-            var rootDir = share.GetRootDirectoryClient();
-            var customerDir = rootDir.GetSubdirectoryClient(customerName);
-            await customerDir.CreateIfNotExistsAsync();
+            var root = share.GetRootDirectoryClient();
+            var dir = root.GetSubdirectoryClient(customerName);
+            await dir.CreateIfNotExistsAsync();
 
-            var files = new List<string>();
-            await foreach (ShareFileItem f in customerDir.GetFilesAndDirectoriesAsync())
-            {
-                files.Add(f.Name);
-            }
-
-            return files;
+            var list = new List<string>();
+            await foreach (ShareFileItem f in dir.GetFilesAndDirectoriesAsync())
+                list.Add(f.Name);
+            return list;
         }
 
-        // Download file
         public async Task<Stream> DownloadFileAsync(string shareName, string customerName, string fileName)
         {
-            customerName = string.IsNullOrWhiteSpace(customerName) ? "general" : customerName;
             var share = GetShare(shareName);
-            var rootDir = share.GetRootDirectoryClient();
-            var customerDir = rootDir.GetSubdirectoryClient(customerName);
-            var fileClient = customerDir.GetFileClient(fileName);
+            var dir = share.GetRootDirectoryClient().GetSubdirectoryClient(customerName ?? "general");
+            var file = dir.GetFileClient(fileName);
 
-            var download = await fileClient.DownloadAsync();
-            var memoryStream = new MemoryStream();
-            await download.Value.Content.CopyToAsync(memoryStream);
-            memoryStream.Position = 0;
-            return memoryStream;
+            var download = await file.DownloadAsync();
+            var memory = new MemoryStream();
+            await download.Value.Content.CopyToAsync(memory);
+            memory.Position = 0;
+            return memory;
         }
 
-        // Delete file
         public async Task DeleteFileAsync(string shareName, string customerName, string fileName)
         {
-            customerName = string.IsNullOrWhiteSpace(customerName) ? "general" : customerName;
             var share = GetShare(shareName);
-            var rootDir = share.GetRootDirectoryClient();
-            var customerDir = rootDir.GetSubdirectoryClient(customerName);
-            var fileClient = customerDir.GetFileClient(fileName);
-
-            await fileClient.DeleteIfExistsAsync();
+            var dir = share.GetRootDirectoryClient().GetSubdirectoryClient(customerName ?? "general");
+            var file = dir.GetFileClient(fileName);
+            await file.DeleteIfExistsAsync();
         }
     }
 }
