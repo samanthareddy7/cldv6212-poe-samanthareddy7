@@ -1,5 +1,4 @@
-﻿using System.Buffers.Text;
-using System.Net.Http.Headers;
+﻿using System.Net.Http.Headers;
 using Azure.Storage.Files.Shares;
 using Azure.Storage.Files.Shares.Models;
 
@@ -8,15 +7,14 @@ namespace ABC_Retail_Part1.Services
     public class FileService
     {
         private readonly ShareServiceClient _client;
-        private readonly HttpClient _http = new HttpClient();
+        private readonly HttpClient _http;
         private readonly string _baseUrl;
 
-
-        public FileService(string connectionString , string baseUrl)
+        public FileService(string connectionString, string baseUrl)
         {
             _client = new ShareServiceClient(connectionString);
             _http = new HttpClient();
-            _baseUrl = baseUrl;
+            _baseUrl = baseUrl.TrimEnd('/'); 
         }
 
         public ShareClient GetShare(string name)
@@ -26,7 +24,7 @@ namespace ABC_Retail_Part1.Services
             return share;
         }
 
-        // Upload through Azure Function
+        //  Upload through Azure Function
         public async Task<bool> UploadFileAsync(string customerName, IFormFile file)
         {
             if (string.IsNullOrWhiteSpace(customerName)) customerName = "general";
@@ -35,6 +33,8 @@ namespace ABC_Retail_Part1.Services
             using var stream = file.OpenReadStream();
             var content = new StreamContent(stream);
             content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
+
+            content.Headers.Add("x-filename", file.FileName);
 
             var url = $"https://st10454507.azurewebsites.net/api/contracts/{Uri.EscapeDataString(customerName)}";
             var response = await _http.PostAsync(url, content);
