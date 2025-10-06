@@ -2,46 +2,63 @@
 
 <h2>Orders</h2>
 
-<div class="table-card">
-    <p>
-        <a asp-action="Create" class="btn btn-primary">Place Order</a>
-    </p>
+<form asp-action="Index" method="get" class="mb-3">
+    <div class="input-group">
+        <input type="text" name="searchTerm" class="form-control" placeholder="Search by customer or product..." />
+        <button type="submit" class="btn btn-outline-primary">Search</button>
+    </div>
+</form>
 
-    <table class="table table-bordered table-hover">
-        <thead>
-            <tr>
-                <th>Customer</th>
-                <th>Product</th>
-                <th>Quantity</th>
-                <th>Date</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var order in Model.Orders)
+<p>
+    <a asp-action="Create" class="btn btn-primary">Place Order</a>
+</p>
+
+<table class="table table-bordered table-hover align-middle">
+    <thead class="table-light">
+        <tr>
+            <th>Customer</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model.Orders)
+        {
+            var colorClass = order.Status switch
             {
-                <tr>
-                    <td>@order.CustomerName</td>
-                    <td>@order.ProductName</td>
-                    <td>@order.Quantity</td>
-                    <td>@order.OrderDate?.ToLocalTime().ToString("g")</td>
-                    <td class="action-buttons">
-                        <a asp-action="Details" asp-route-rowKey="@order.RowKey" class="btn btn-details btn-sm">
-                            🔍 Details
-                        </a>
-                        <a asp-action="Edit" asp-route-rowKey="@order.RowKey" class="btn btn-edit btn-sm">
-                            ✏️ Edit
-                        </a>
-                        <a asp-action="Delete" asp-route-rowKey="@order.RowKey" class="btn btn-delete btn-sm">
-                            🗑️ Delete
-                        </a>
-                    </td>
-                </tr>
+                "Confirmed" => "text-success fw-bold",
+                "Shipped" => "text-primary fw-bold",
+                _ => "text-warning fw-bold"
+            };
 
-            }
-        </tbody>
-    </table>
-</div>
+            <tr>
+                <td>@order.CustomerName</td>
+                <td>@order.ProductName</td>
+                <td>@order.Quantity</td>
+                <td>@order.OrderDate?.ToLocalTime().ToString("g")</td>
+                <td>
+                    <form asp-action="UpdateStatus" method="post" class="d-flex">
+                        <input type="hidden" name="rowKey" value="@order.RowKey" />
+                        <select name="newStatus" class="form-select form-select-sm me-2">
+                            <option value="Pending" selected="@(order.Status == "Pending")">Pending</option>
+                            <option value="Confirmed" selected="@(order.Status == "Confirmed")">Confirmed</option>
+                            <option value="Shipped" selected="@(order.Status == "Shipped")">Shipped</option>
+                        </select>
+                        <button type="submit" class="btn btn-sm btn-outline-secondary">Update</button>
+                    </form>
+                </td>
+                <td class="action-buttons">
+                    <a asp-action="Details" asp-route-rowKey="@order.RowKey" class="btn btn-outline-info btn-sm">Details</a>
+                    <a asp-action="Edit" asp-route-rowKey="@order.RowKey" class="btn btn-outline-warning btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-rowKey="@order.RowKey" class="btn btn-outline-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
 
 <hr />
 
@@ -49,7 +66,7 @@
 
 @if (Model.QueueMessages != null && Model.QueueMessages.Any())
 {
-    <ul class="list-group queue-messages">
+    <ul class="list-group">
         @foreach (var msg in Model.QueueMessages)
         {
             <li class="list-group-item">@msg</li>

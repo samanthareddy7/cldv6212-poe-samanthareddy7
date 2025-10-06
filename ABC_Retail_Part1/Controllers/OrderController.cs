@@ -2,6 +2,7 @@
 using ABC_Retail_Part1.Models;
 using ABC_Retail_Part1.Services;
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace ABC_Retail_Part1.Controllers
@@ -19,12 +20,22 @@ namespace ABC_Retail_Part1.Controllers
             _queueService = queueService;
         }
 
-        // GET: Orders
-        public async Task<IActionResult> Index()
+        // GET: Orders (with search)
+        public async Task<IActionResult> Index(string searchTerm)
         {
             var orders = await _tableService.GetAllAsync<Order>(TableName);
 
-            // pull some messages to show on the page
+            if (!string.IsNullOrWhiteSpace(searchTerm))
+            {
+                searchTerm = searchTerm.ToLower();
+                orders = orders
+                    .Where(o =>
+                        (!string.IsNullOrEmpty(o.CustomerName) && o.CustomerName.ToLower().Contains(searchTerm)) ||
+                        (!string.IsNullOrEmpty(o.ProductName) && o.ProductName.ToLower().Contains(searchTerm)))
+                    .ToList();
+            }
+
+            // queue messages (optional)
             var messages = await _queueService.GetMessagesAsync("orderqueue", maxMessages: 20, peekOnly: true);
 
             var vm = new OrderIndexViewModel
@@ -43,16 +54,14 @@ namespace ABC_Retail_Part1.Controllers
             ViewBag.CustomerList = customers
                 .Select(c => new Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
                 {
-                    Value = c.CustomerName,   // or c.RowKey if you want IDs
-                    Text = c.CustomerName     // show the name in dropdown
+                    Value = c.CustomerName,
+                    Text = c.CustomerName
                 })
                 .ToList();
 
             return View();
         }
 
-
-        // POST: Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Order order)
@@ -61,24 +70,29 @@ namespace ABC_Retail_Part1.Controllers
 
             order.PartitionKey = Partition;
             order.RowKey = Guid.NewGuid().ToString();
-            order.OrderDate = DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Utc);
+            order.OrderDate = DateTime.UtcNow;
+            order.Status = "Pending";
 
-            // Insert into Azure Table
             await _tableService.InsertOrUpdateAsync(TableName, order);
 
-            // Send a message to the queue with correct local time
+            // queue
             if (_queueService != null)
             {
-                string orderTime = order.OrderDate.HasValue
-                    ? order.OrderDate.Value.ToLocalTime().ToString("g")
-                    : "N/A";
-
-                string message = $"New order placed: Customer={order.CustomerName}, Product={order.ProductName}, Quantity={order.Quantity}, Date={orderTime}";
+                string message = $"New order placed: {order.CustomerName} - {order.ProductName}";
                 await _queueService.SendMessageAsync("orderqueue", message);
             }
 
+            return RedirectToAction(nameof(Index));
+        }
 
-            Console.WriteLine($"Order created: {order.ProductName}, Quantity: {order.Quantity}");
+        [HttpPost]
+        public async Task<IActionResult> UpdateStatus(string rowKey, string newStatus)
+        {
+            var order = await _tableService.GetAsync<Order>(TableName, Partition, rowKey);
+            if (order == null) return NotFound();
+
+            order.Status = newStatus;
+            await _tableService.UpdateAsync(TableName, order);
 
             return RedirectToAction(nameof(Index));
         }
