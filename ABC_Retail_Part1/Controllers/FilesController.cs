@@ -35,7 +35,7 @@ namespace ABC_Retail_Part1.Controllers
         {
             if (file != null && file.Length > 0)
             {
-                await _fileService.UploadFileAsync(customerName, file); // ✅ only 2 arguments now
+                await _fileService.UploadFileAsync(customerName, file); 
             }
             return RedirectToAction("Upload", new { customerName });
         }

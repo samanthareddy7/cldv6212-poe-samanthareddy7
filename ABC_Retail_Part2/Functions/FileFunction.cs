@@ -17,7 +17,12 @@ public class FileFunction
         var dir = share.GetRootDirectoryClient().GetSubdirectoryClient(customerName ?? "general");
         await dir.CreateIfNotExistsAsync();
 
-        var fileName = $"{Guid.NewGuid()}.txt";
+        // Get original filename from x-filename header
+        string originalName = req.Headers.TryGetValues("x-filename", out var values)
+            ? values.FirstOrDefault() ?? "unknown.txt"
+            : "unknown.txt";
+
+        var fileName = originalName;
         var fileClient = dir.GetFileClient(fileName);
 
         using var mem = new MemoryStream();
@@ -28,7 +33,7 @@ public class FileFunction
         await fileClient.UploadAsync(mem);
 
         var res = req.CreateResponse(HttpStatusCode.OK);
-        await res.WriteStringAsync($"Contract uploaded for {customerName}.");
+        await res.WriteStringAsync($"Contract '{originalName}' uploaded for {customerName}.");
         return res;
     }
 }
