@@ -8,7 +8,7 @@ public class TableFunction
 {
     [Function("AddCustomer")]
     public async Task<HttpResponseData> Run(
-        [HttpTrigger(AuthorizationLevel.Function, "post", Route = "customers")] HttpRequestData req)
+        [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "customers")] HttpRequestData req)
     {
         var body = await new StreamReader(req.Body).ReadToEndAsync();
         var data = JsonConvert.DeserializeObject<Dictionary<string, object>>(body);

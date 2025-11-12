@@ -1,54 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\",
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\desktop\\abc_retail_part2\\abc_retail_part2\\functions\\productfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\functions\\productfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\desktop\\abc_retail_part2\\abc_retail_part2\\abc_retail_part2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retail_part1 4\\abc_retail_part2\\abc_retail_part2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\abc_retail_part2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\desktop\\abc_retail_part2\\abc_retail_part2\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retail_part1 4\\abc_retail_part2\\abc_retail_part2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\abc_retail_part2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\desktop\\abc_retail_part2\\abc_retail_part2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\desktop\\abc_retail_part2\\abc_retail_part2\\functions\\filefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\functions\\filefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\desktop\\abc_retail_part2\\abc_retail_part2\\functions\\queuetriggerfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\functions\\queuetriggerfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\desktop\\abc_retail_part2\\abc_retail_part2\\functions\\queuehttpfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\functions\\queuehttpfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\desktop\\abc_retail_part2\\abc_retail_part2\\functions\\tablefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retail_part1 4\\abc_retail_part2\\functions\\tablefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\functions\\tablefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\desktop\\abc_retail_part2\\abc_retail_part2\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retail_part1 4\\abc_retail_part2\\functions\\queuetriggerfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\functions\\queuetriggerfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\desktop\\abc_retail_part2\\abc_retail_part2\\functions\\blobfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retail_part1 4\\abc_retail_part2\\functions\\queuehttpfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\functions\\queuehttpfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retail_part1 4\\abc_retail_part2\\functions\\productfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\functions\\productfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retail_part1 4\\abc_retail_part2\\functions\\filefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\functions\\filefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retail_part1 4\\abc_retail_part2\\functions\\blobfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\functions\\blobfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\desktop\\abc_retail_part2\\abc_retail_part2\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retail_part1 4\\abc_retail_part2\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retail_part1 4\\abc_retail_part2\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\desktop\\abc_retail_part2\\abc_retail_part2\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retail_part1 4\\abc_retail_part2\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|c:\\users\\lab_services_student\\source\\repos\\abc_retail_part1 4\\abc_retail_part2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C94755-1C03-4AC1-BCB1-F47C346C49D1}|ABC_Retail_Part2\\ABC_Retail_Part2.csproj|solutionrelative:abc_retail_part2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,155 +58,156 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductFunction.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Functions\\ProductFunction.cs",
-              "RelativeDocumentMoniker": "ABC_Retail_Part2\\Functions\\ProductFunction.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Functions\\ProductFunction.cs",
-              "RelativeToolTip": "ABC_Retail_Part2\\Functions\\ProductFunction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ABC_Retail_Part2",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\ABC_Retail_Part2.csproj",
+              "RelativeDocumentMoniker": "ABC_Retail_Part2\\ABC_Retail_Part2.csproj",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\ABC_Retail_Part2.csproj",
+              "RelativeToolTip": "ABC_Retail_Part2\\ABC_Retail_Part2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-12T01:48:33.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileFunction.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Functions\\FileFunction.cs",
+              "RelativeDocumentMoniker": "ABC_Retail_Part2\\Functions\\FileFunction.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Functions\\FileFunction.cs*",
+              "RelativeToolTip": "ABC_Retail_Part2\\Functions\\FileFunction.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T00:22:56.134Z",
+              "WhenOpened": "2025-11-12T01:47:36.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\.gitignore",
-              "RelativeDocumentMoniker": "ABC_Retail_Part2\\.gitignore",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\.gitignore",
-              "RelativeToolTip": "ABC_Retail_Part2\\.gitignore",
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\local.settings.json",
+              "RelativeDocumentMoniker": "ABC_Retail_Part2\\local.settings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\local.settings.json",
+              "RelativeToolTip": "ABC_Retail_Part2\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-12T00:45:16.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "host.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\host.json",
+              "RelativeDocumentMoniker": "ABC_Retail_Part2\\host.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\host.json",
+              "RelativeToolTip": "ABC_Retail_Part2\\host.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-05T00:16:05.874Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-12T00:02:42.383Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "host.json",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\host.json",
-              "RelativeDocumentMoniker": "ABC_Retail_Part2\\host.json",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\host.json",
-              "RelativeToolTip": "ABC_Retail_Part2\\host.json",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Program.cs",
+              "RelativeDocumentMoniker": "ABC_Retail_Part2\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Program.cs",
+              "RelativeToolTip": "ABC_Retail_Part2\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-03T11:05:50.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "QueueHttpFunction.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Functions\\QueueHttpFunction.cs",
-              "RelativeDocumentMoniker": "ABC_Retail_Part2\\Functions\\QueueHttpFunction.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Functions\\QueueHttpFunction.cs",
-              "RelativeToolTip": "ABC_Retail_Part2\\Functions\\QueueHttpFunction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T20:46:43.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FileFunction.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Functions\\FileFunction.cs",
-              "RelativeDocumentMoniker": "ABC_Retail_Part2\\Functions\\FileFunction.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Functions\\FileFunction.cs",
-              "RelativeToolTip": "ABC_Retail_Part2\\Functions\\FileFunction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T20:44:25.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T00:02:43.11Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "QueueTriggerFunction.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Functions\\QueueTriggerFunction.cs",
-              "RelativeDocumentMoniker": "ABC_Retail_Part2\\Functions\\QueueTriggerFunction.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Functions\\QueueTriggerFunction.cs",
-              "RelativeToolTip": "ABC_Retail_Part2\\Functions\\QueueTriggerFunction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Title": "ProductFunction.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Functions\\ProductFunction.cs",
+              "RelativeDocumentMoniker": "ABC_Retail_Part2\\Functions\\ProductFunction.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Functions\\ProductFunction.cs*",
+              "RelativeToolTip": "ABC_Retail_Part2\\Functions\\ProductFunction.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwAoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T15:03:15.799Z"
+              "WhenOpened": "2025-11-12T00:01:21.075Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BlobFunction.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Functions\\BlobFunction.cs",
-              "RelativeDocumentMoniker": "ABC_Retail_Part2\\Functions\\BlobFunction.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Functions\\BlobFunction.cs",
-              "RelativeToolTip": "ABC_Retail_Part2\\Functions\\BlobFunction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "QueueHttpFunction.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Functions\\QueueHttpFunction.cs",
+              "RelativeDocumentMoniker": "ABC_Retail_Part2\\Functions\\QueueHttpFunction.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Functions\\QueueHttpFunction.cs*",
+              "RelativeToolTip": "ABC_Retail_Part2\\Functions\\QueueHttpFunction.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T15:02:20.253Z"
+              "WhenOpened": "2025-11-11T23:54:28.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QueueTriggerFunction.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Functions\\QueueTriggerFunction.cs",
+              "RelativeDocumentMoniker": "ABC_Retail_Part2\\Functions\\QueueTriggerFunction.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Functions\\QueueTriggerFunction.cs",
+              "RelativeToolTip": "ABC_Retail_Part2\\Functions\\QueueTriggerFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T15:03:15.799Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "BlobFunction.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Functions\\BlobFunction.cs",
+              "RelativeDocumentMoniker": "ABC_Retail_Part2\\Functions\\BlobFunction.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Functions\\BlobFunction.cs*",
+              "RelativeToolTip": "ABC_Retail_Part2\\Functions\\BlobFunction.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T15:02:20.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TableFunction.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Functions\\TableFunction.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Functions\\TableFunction.cs",
               "RelativeDocumentMoniker": "ABC_Retail_Part2\\Functions\\TableFunction.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Functions\\TableFunction.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Functions\\TableFunction.cs",
               "RelativeToolTip": "ABC_Retail_Part2\\Functions\\TableFunction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T14:59:37.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "local.settings.json",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\local.settings.json",
-              "RelativeDocumentMoniker": "ABC_Retail_Part2\\local.settings.json",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\local.settings.json",
-              "RelativeToolTip": "ABC_Retail_Part2\\local.settings.json",
-              "ViewState": "AgIAAAAAAAAAZ2ZmZmYEwAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-02T00:06:09.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ABC_Retail_Part2.csproj",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\ABC_Retail_Part2.csproj",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\ABC_Retail_Part2.csproj",
               "RelativeDocumentMoniker": "ABC_Retail_Part2\\ABC_Retail_Part2.csproj",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\ABC_Retail_Part2.csproj",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\ABC_Retail_Part2.csproj",
               "RelativeToolTip": "ABC_Retail_Part2\\ABC_Retail_Part2.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-10-01T23:43:54.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Program.cs",
-              "RelativeDocumentMoniker": "ABC_Retail_Part2\\Program.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Program.cs",
-              "RelativeToolTip": "ABC_Retail_Part2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T23:42:34.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Function1.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Function1.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Function1.cs",
               "RelativeDocumentMoniker": "ABC_Retail_Part2\\Function1.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABC_Retail_Part2\\ABC_Retail_Part2\\Function1.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\ABC_Retail_Part1 4\\ABC_Retail_Part2\\Function1.cs",
               "RelativeToolTip": "ABC_Retail_Part2\\Function1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAIAowBYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T23:42:17.02Z"
             }

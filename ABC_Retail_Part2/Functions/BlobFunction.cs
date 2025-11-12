@@ -7,7 +7,7 @@ public class BlobFunction
 {
     [Function("UploadProductImage")]
     public async Task<HttpResponseData> Run(
-        [HttpTrigger(AuthorizationLevel.Function, "post", Route = "uploadimage")] HttpRequestData req)
+        [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "uploadimage")] HttpRequestData req)
     {
         var conn = Environment.GetEnvironmentVariable("AzureWebJobsStorage");
         var blobService = new BlobServiceClient(conn);

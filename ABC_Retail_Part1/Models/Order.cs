@@ -11,12 +11,10 @@ namespace ABC_Retail_Part1.Models
         public ETag ETag { get; set; }
         public DateTime? OrderDate { get; set; }
 
-        // Business fields
         public string CustomerName { get; set; } = string.Empty;
         public string ProductName { get; set; } = string.Empty;
         public int Quantity { get; set; }
 
-        // 🆕 Add this line
         public string Status { get; set; } = "Pending";
     }
 }

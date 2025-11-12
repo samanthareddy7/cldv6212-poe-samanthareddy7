@@ -7,7 +7,7 @@ public class FileFunction
 {
     [Function("UploadContract")]
     public async Task<HttpResponseData> Run(
-        [HttpTrigger(AuthorizationLevel.Function, "post", Route = "contracts/{customerName}")] HttpRequestData req,
+        [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "contracts/{customerName}")] HttpRequestData req,
         string customerName)
     {
         var conn = Environment.GetEnvironmentVariable("AzureWebJobsStorage");

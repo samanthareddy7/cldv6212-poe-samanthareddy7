@@ -7,7 +7,7 @@ public class QueueHttpFunction
 {
     [Function("PlaceOrder")]
     public async Task<HttpResponseData> Run(
-        [HttpTrigger(AuthorizationLevel.Function, "post", Route = "orders")] HttpRequestData req)
+        [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "orders")] HttpRequestData req)
     {
         var conn = Environment.GetEnvironmentVariable("AzureWebJobsStorage");
         var body = await new StreamReader(req.Body).ReadToEndAsync();

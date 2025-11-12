@@ -8,7 +8,7 @@ public class ProductFunction
 {
     [Function("AddProduct")]
     public async Task<HttpResponseData> Run(
-        [HttpTrigger(AuthorizationLevel.Function, "post", Route = "products")] HttpRequestData req)
+        [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "products")] HttpRequestData req)
     {
         var conn = Environment.GetEnvironmentVariable("AzureWebJobsStorage");
         var table = new TableClient(conn, "Products");
