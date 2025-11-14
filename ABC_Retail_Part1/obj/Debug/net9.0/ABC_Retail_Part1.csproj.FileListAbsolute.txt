@@ -1,327 +1,312 @@
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/appsettings.Development.json
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/appsettings.json
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.staticwebassets.runtime.json
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.staticwebassets.endpoints.json
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.exe
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.deps.json
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.runtimeconfig.json
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.dll
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.pdb
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.AssemblyInfoInputs.cache
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.AssemblyInfo.cs
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.csproj.CoreCompileInputs.cache
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.MvcApplicationPartsAssemblyInfo.cache
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.RazorAssemblyInfo.cache
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.RazorAssemblyInfo.cs
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/scopedcss/bundle/ABC_Retail_Part1.styles.css
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/scopedcss/projectbundle/ABC_Retail_Part1.bundle.scp.css
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/uad6lbxrnu-61n19gt1b8.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/xiq7yo1rjg-xtxxf3hu2r.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/cmp44va6cr-c2jlpeoesf.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/xg278vtwk5-aexeepp0ev.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/5x1o0y0xby-ausgxo2sd3.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/u2cwmawwze-cosvhxvwiu.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/3xilx04cwe-fvhpjtyr6v.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ybb5lfyp6o-fsbi9cje9m.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/k7x6vq6pe3-ee0r1s7dh0.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/aq18x4gc96-jd9uben2k1.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/q8psl7lcvt-r4e9w2rdcm.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/t13fx0cv6x-c2oey78nd0.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/okmet832sx-j5mq2jizvt.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/juiqc7c0cb-nvvlpmu67g.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/izwyr2pn9c-pj5nd1wqec.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/o5krmajb31-v0zj4ognzu.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/us35toly47-hrwsygsryq.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/rzup5riv06-ft3s53vfgj.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/5l27ex4h61-6pdc2jztkx.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/7gakkdww0s-iovd86k7lj.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/jt58p0ilf1-kbrnm935zg.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/7jwydseh9q-y7v9cxd14o.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/snhns7h78r-h1s4sie4z3.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/9mpxioh2y0-0j3bgjxly4.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/iud7los6ot-356vix0kms.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/f926m6g6ho-83jwlth58m.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/g55qz2zl3x-mrlpezrjn3.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/oe374zir5x-x0q3zqp4vz.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/01bazkrljw-ttgo8qnofa.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/v35w4cmnz5-87fc7y1x7t.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/wjsd3tzx3j-mlv21k5csn.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/slxb5q80ly-givhor3rit.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/eu6o0ztjok-givhor3rit.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.build.json
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.development.json
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.build.endpoints.json
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets/msbuild.ABC_Retail_Part1.Microsoft.AspNetCore.StaticWebAssets.props
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets/msbuild.ABC_Retail_Part1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets/msbuild.build.ABC_Retail_Part1.props
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.ABC_Retail_Part1.props
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.ABC_Retail_Part1.props
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.pack.json
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.upToDateCheck.txt
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.dll
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/refint/ABC_Retail_Part1.dll
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.pdb
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.genruntimeconfig.cache
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/ref/ABC_Retail_Part1.dll
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Core.dll
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Data.Tables.dll
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Blobs.dll
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Common.dll
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Files.Shares.dll
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Queues.dll
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/System.ClientModel.dll
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/System.IO.Hashing.dll
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/bin/Debug/net9.0/System.Memory.Data.dll
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.csproj.AssemblyReference.cache
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Reta.EA4C9661.Up2Date
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.sourcelink.json
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/6bdoz63ogl-t1cqhe9u97.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/0b8lipbvvn-sejl45xvog.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/9ujngu71ge-xvp3kq03qx.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/m5wdl6ia4z-22vffe00uq.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/u6gcjtj3ig-qesaa3a1fm.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/46qbvxpkf7-tmc1g35s3z.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/xl81rj882d-rxsg74s51o.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ma3aevt0i5-q9ht133ko3.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/t2poq43a5m-gye83jo8yx.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ocv4nz0yky-wl58j5mj3v.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/8ojb8h6tqm-d4r6k3f320.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/0xhlvzovh4-keugtjm085.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/se8mhbgwl5-zub09dkrxp.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/hohf4voajr-43atpzeawx.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/eakf1m14pd-ynyaa8k90p.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/zdnmmtpfgk-c63t5i9ira.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/exl6u9o4b6-4094rpi4f9.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/g1smm38dqh-hd3gran6i8.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/zpdba3umrc-ltid2c489k.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/x33w5ko0d1-8vyfqsqgz1.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ffdkrltk58-u9q1upor1n.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ng9kyhxf46-4d85u1mtcx.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/kzwxtaz2py-03hjc8e09r.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ezurj042tw-48y08845bh.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/8x0y6qqdfv-worgj0nhwm.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/2oe6be93td-gk0pw8i4co.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/wow16ikpnk-d6nrnj6jjx.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/1onmuj6ht3-m9qm4tazc0.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ymx1n6ero1-jjsuc0puko.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/k51aafjeg6-9vr69e8ynj.gz
-C:/Users/lab_services_student/source/repos/ABC_Retail_Part1/ABC_Retail_Part1/obj/Debug/net9.0/compressed/e6wdb4s751-zvlrgud9ra.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/appsettings.Development.json
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/appsettings.json
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.staticwebassets.runtime.json
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.staticwebassets.endpoints.json
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.deps.json
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.runtimeconfig.json
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.dll
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.pdb
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Core.dll
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Data.Tables.dll
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Blobs.dll
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Common.dll
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Files.Shares.dll
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Queues.dll
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.ClientModel.dll
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.IO.Hashing.dll
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.Memory.Data.dll
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.csproj.AssemblyReference.cache
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.GeneratedMSBuildEditorConfig.editorconfig
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.AssemblyInfoInputs.cache
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.AssemblyInfo.cs
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.csproj.CoreCompileInputs.cache
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.MvcApplicationPartsAssemblyInfo.cache
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.RazorAssemblyInfo.cache
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.RazorAssemblyInfo.cs
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.sourcelink.json
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/scopedcss/bundle/ABC_Retail_Part1.styles.css
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/scopedcss/projectbundle/ABC_Retail_Part1.bundle.scp.css
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/e6wdb4s751-zvlrgud9ra.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/uad6lbxrnu-61n19gt1b8.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/xiq7yo1rjg-xtxxf3hu2r.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/6bdoz63ogl-t1cqhe9u97.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/cmp44va6cr-c2jlpeoesf.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/0b8lipbvvn-sejl45xvog.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/xg278vtwk5-aexeepp0ev.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/9ujngu71ge-xvp3kq03qx.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/5x1o0y0xby-ausgxo2sd3.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/m5wdl6ia4z-22vffe00uq.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/u2cwmawwze-cosvhxvwiu.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/u6gcjtj3ig-qesaa3a1fm.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/3xilx04cwe-fvhpjtyr6v.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/46qbvxpkf7-tmc1g35s3z.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ybb5lfyp6o-fsbi9cje9m.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/xl81rj882d-rxsg74s51o.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/k7x6vq6pe3-ee0r1s7dh0.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ma3aevt0i5-q9ht133ko3.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/aq18x4gc96-jd9uben2k1.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/t2poq43a5m-gye83jo8yx.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/q8psl7lcvt-r4e9w2rdcm.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ocv4nz0yky-wl58j5mj3v.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/t13fx0cv6x-c2oey78nd0.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/8ojb8h6tqm-d4r6k3f320.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/okmet832sx-j5mq2jizvt.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/0xhlvzovh4-keugtjm085.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/juiqc7c0cb-nvvlpmu67g.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/se8mhbgwl5-zub09dkrxp.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/izwyr2pn9c-pj5nd1wqec.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/hohf4voajr-43atpzeawx.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/o5krmajb31-v0zj4ognzu.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/eakf1m14pd-ynyaa8k90p.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/us35toly47-hrwsygsryq.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/zdnmmtpfgk-c63t5i9ira.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/rzup5riv06-ft3s53vfgj.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/exl6u9o4b6-4094rpi4f9.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/5l27ex4h61-6pdc2jztkx.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/g1smm38dqh-hd3gran6i8.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/7gakkdww0s-iovd86k7lj.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/zpdba3umrc-ltid2c489k.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/jt58p0ilf1-kbrnm935zg.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/x33w5ko0d1-8vyfqsqgz1.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/7jwydseh9q-y7v9cxd14o.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ffdkrltk58-u9q1upor1n.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/snhns7h78r-h1s4sie4z3.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ng9kyhxf46-4d85u1mtcx.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/9mpxioh2y0-0j3bgjxly4.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/kzwxtaz2py-03hjc8e09r.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ezurj042tw-48y08845bh.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/iud7los6ot-356vix0kms.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/f926m6g6ho-83jwlth58m.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/g55qz2zl3x-mrlpezrjn3.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/8x0y6qqdfv-worgj0nhwm.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/2oe6be93td-gk0pw8i4co.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/oe374zir5x-x0q3zqp4vz.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/wow16ikpnk-d6nrnj6jjx.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/1onmuj6ht3-m9qm4tazc0.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/01bazkrljw-ttgo8qnofa.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ymx1n6ero1-jjsuc0puko.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/k51aafjeg6-9vr69e8ynj.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/v35w4cmnz5-87fc7y1x7t.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/wjsd3tzx3j-mlv21k5csn.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/slxb5q80ly-2fy6kg80v1.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/eu6o0ztjok-2fy6kg80v1.gz
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.build.json
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.build.json.cache
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.development.json
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.build.endpoints.json
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Reta.EA4C9661.Up2Date
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.dll
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/refint/ABC_Retail_Part1.dll
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.pdb
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.genruntimeconfig.cache
-/Users/samanthareddy/CLDV Copies/Semester 4/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ref/ABC_Retail_Part1.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\appsettings.Development.json
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\appsettings.json
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\ABC_Retail_Part1.staticwebassets.runtime.json
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\ABC_Retail_Part1.staticwebassets.endpoints.json
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\ABC_Retail_Part1.exe
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\ABC_Retail_Part1.deps.json
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\ABC_Retail_Part1.runtimeconfig.json
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\ABC_Retail_Part1.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\ABC_Retail_Part1.pdb
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\Azure.Core.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\Azure.Data.Tables.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\Azure.Storage.Blobs.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\Azure.Storage.Common.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\Azure.Storage.Files.Shares.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\Azure.Storage.Queues.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\System.ClientModel.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\System.IO.Hashing.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\System.Memory.Data.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\ABC_Retail_Part1.csproj.AssemblyReference.cache
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\rpswa.dswa.cache.json
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\ABC_Retail_Part1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\ABC_Retail_Part1.AssemblyInfoInputs.cache
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\ABC_Retail_Part1.AssemblyInfo.cs
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\ABC_Retail_Part1.csproj.CoreCompileInputs.cache
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\ABC_Retail_Part1.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\ABC_Retail_Part1.RazorAssemblyInfo.cache
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\ABC_Retail_Part1.RazorAssemblyInfo.cs
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\ABC_Retail_Part1.sourcelink.json
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\rjimswa.dswa.cache.json
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\scopedcss\bundle\ABC_Retail_Part1.styles.css
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\scopedcss\projectbundle\ABC_Retail_Part1.bundle.scp.css
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\e6wdb4s751-zvlrgud9ra.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\uad6lbxrnu-61n19gt1b8.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\xiq7yo1rjg-xtxxf3hu2r.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\6bdoz63ogl-t1cqhe9u97.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\cmp44va6cr-c2jlpeoesf.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\0b8lipbvvn-sejl45xvog.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\xg278vtwk5-aexeepp0ev.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\9ujngu71ge-xvp3kq03qx.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\5x1o0y0xby-ausgxo2sd3.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\m5wdl6ia4z-22vffe00uq.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\u2cwmawwze-cosvhxvwiu.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\u6gcjtj3ig-qesaa3a1fm.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\3xilx04cwe-fvhpjtyr6v.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\46qbvxpkf7-tmc1g35s3z.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\ybb5lfyp6o-fsbi9cje9m.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\xl81rj882d-rxsg74s51o.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\k7x6vq6pe3-ee0r1s7dh0.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\ma3aevt0i5-q9ht133ko3.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\aq18x4gc96-jd9uben2k1.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\t2poq43a5m-gye83jo8yx.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\q8psl7lcvt-r4e9w2rdcm.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\ocv4nz0yky-wl58j5mj3v.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\t13fx0cv6x-c2oey78nd0.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\8ojb8h6tqm-d4r6k3f320.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\okmet832sx-j5mq2jizvt.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\0xhlvzovh4-keugtjm085.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\juiqc7c0cb-nvvlpmu67g.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\se8mhbgwl5-zub09dkrxp.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\izwyr2pn9c-pj5nd1wqec.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\hohf4voajr-43atpzeawx.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\o5krmajb31-v0zj4ognzu.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\eakf1m14pd-ynyaa8k90p.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\us35toly47-hrwsygsryq.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\zdnmmtpfgk-c63t5i9ira.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\rzup5riv06-ft3s53vfgj.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\exl6u9o4b6-4094rpi4f9.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\5l27ex4h61-6pdc2jztkx.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\g1smm38dqh-hd3gran6i8.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\7gakkdww0s-iovd86k7lj.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\zpdba3umrc-ltid2c489k.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\jt58p0ilf1-kbrnm935zg.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\x33w5ko0d1-8vyfqsqgz1.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\7jwydseh9q-y7v9cxd14o.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\ffdkrltk58-u9q1upor1n.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\snhns7h78r-h1s4sie4z3.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\ng9kyhxf46-4d85u1mtcx.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\9mpxioh2y0-0j3bgjxly4.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\kzwxtaz2py-03hjc8e09r.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\ezurj042tw-48y08845bh.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\iud7los6ot-356vix0kms.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\f926m6g6ho-83jwlth58m.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\g55qz2zl3x-mrlpezrjn3.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\8x0y6qqdfv-worgj0nhwm.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\2oe6be93td-gk0pw8i4co.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\oe374zir5x-x0q3zqp4vz.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\wow16ikpnk-d6nrnj6jjx.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\1onmuj6ht3-m9qm4tazc0.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\01bazkrljw-ttgo8qnofa.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\ymx1n6ero1-jjsuc0puko.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\k51aafjeg6-9vr69e8ynj.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\v35w4cmnz5-87fc7y1x7t.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\wjsd3tzx3j-mlv21k5csn.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\slxb5q80ly-givhor3rit.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\compressed\eu6o0ztjok-givhor3rit.gz
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\staticwebassets.build.json
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\staticwebassets.build.json.cache
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\staticwebassets.development.json
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\ABC_Reta.EA4C9661.Up2Date
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\ABC_Retail_Part1.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\refint\ABC_Retail_Part1.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\ABC_Retail_Part1.pdb
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\ABC_Retail_Part1.genruntimeconfig.cache
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\obj\Debug\net9.0\ref\ABC_Retail_Part1.dll
-C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\bin\Debug\net9.0\Newtonsoft.Json.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/appsettings.Development.json
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/appsettings.json
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.staticwebassets.runtime.json
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.staticwebassets.endpoints.json
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.deps.json
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.runtimeconfig.json
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.pdb
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Core.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Data.Tables.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Identity.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Blobs.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Common.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Files.Shares.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Queues.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Bcl.Cryptography.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.ClientModel.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.Data.SqlClient.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.Diagnostics.EventLog.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.IO.Hashing.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.Security.Cryptography.Pkcs.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/cs/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/de/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/es/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/fr/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/it/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ja/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ko/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/pl/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ru/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/tr/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/unix/lib/net9.0/Microsoft.Data.SqlClient.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win/lib/net9.0/Microsoft.Data.SqlClient.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win-arm64/native/sni.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win-x64/native/sni.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win-x86/native/sni.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Data.SqlClient.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Diagnostics.EventLog.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.csproj.AssemblyReference.cache
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.AssemblyInfoInputs.cache
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.AssemblyInfo.cs
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.csproj.CoreCompileInputs.cache
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.MvcApplicationPartsAssemblyInfo.cache
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.RazorAssemblyInfo.cache
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.RazorAssemblyInfo.cs
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.sourcelink.json
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/scopedcss/bundle/ABC_Retail_Part1.styles.css
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/scopedcss/projectbundle/ABC_Retail_Part1.bundle.scp.css
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/uad6lbxrnu-61n19gt1b8.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/xiq7yo1rjg-xtxxf3hu2r.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/6bdoz63ogl-t1cqhe9u97.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/cmp44va6cr-c2jlpeoesf.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/0b8lipbvvn-sejl45xvog.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/xg278vtwk5-aexeepp0ev.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/9ujngu71ge-xvp3kq03qx.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/5x1o0y0xby-ausgxo2sd3.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/m5wdl6ia4z-22vffe00uq.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/u2cwmawwze-cosvhxvwiu.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/u6gcjtj3ig-qesaa3a1fm.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/3xilx04cwe-fvhpjtyr6v.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/46qbvxpkf7-tmc1g35s3z.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ybb5lfyp6o-fsbi9cje9m.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/xl81rj882d-rxsg74s51o.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/k7x6vq6pe3-ee0r1s7dh0.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ma3aevt0i5-q9ht133ko3.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/aq18x4gc96-jd9uben2k1.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/t2poq43a5m-gye83jo8yx.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/q8psl7lcvt-r4e9w2rdcm.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ocv4nz0yky-wl58j5mj3v.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/t13fx0cv6x-c2oey78nd0.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/8ojb8h6tqm-d4r6k3f320.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/okmet832sx-j5mq2jizvt.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/0xhlvzovh4-keugtjm085.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/juiqc7c0cb-nvvlpmu67g.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/se8mhbgwl5-zub09dkrxp.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/izwyr2pn9c-pj5nd1wqec.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/hohf4voajr-43atpzeawx.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/o5krmajb31-v0zj4ognzu.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/eakf1m14pd-ynyaa8k90p.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/us35toly47-hrwsygsryq.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/zdnmmtpfgk-c63t5i9ira.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/rzup5riv06-ft3s53vfgj.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/exl6u9o4b6-4094rpi4f9.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/5l27ex4h61-6pdc2jztkx.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/g1smm38dqh-hd3gran6i8.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/7gakkdww0s-iovd86k7lj.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/zpdba3umrc-ltid2c489k.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/jt58p0ilf1-kbrnm935zg.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/x33w5ko0d1-8vyfqsqgz1.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/7jwydseh9q-y7v9cxd14o.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ffdkrltk58-u9q1upor1n.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/snhns7h78r-h1s4sie4z3.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ng9kyhxf46-4d85u1mtcx.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/9mpxioh2y0-0j3bgjxly4.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/kzwxtaz2py-03hjc8e09r.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ezurj042tw-48y08845bh.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/iud7los6ot-356vix0kms.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/f926m6g6ho-83jwlth58m.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/g55qz2zl3x-mrlpezrjn3.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/8x0y6qqdfv-worgj0nhwm.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/2oe6be93td-gk0pw8i4co.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/oe374zir5x-x0q3zqp4vz.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/wow16ikpnk-d6nrnj6jjx.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/1onmuj6ht3-m9qm4tazc0.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/01bazkrljw-ttgo8qnofa.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ymx1n6ero1-jjsuc0puko.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/k51aafjeg6-9vr69e8ynj.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/v35w4cmnz5-87fc7y1x7t.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/wjsd3tzx3j-mlv21k5csn.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/slxb5q80ly-odehz9k7ys.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/eu6o0ztjok-odehz9k7ys.gz
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.build.json
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.development.json
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Reta.EA4C9661.Up2Date
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/refint/ABC_Retail_Part1.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.pdb
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.genruntimeconfig.cache
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ref/ABC_Retail_Part1.dll
+/Users/samanthareddy/cloud part 3 /new start/ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/e6wdb4s751-vn020b60nc.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/appsettings.Development.json
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/appsettings.json
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.staticwebassets.endpoints.json
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.staticwebassets.runtime.json
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.deps.json
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.runtimeconfig.json
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ABC_Retail_Part1.pdb
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Core.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Data.Tables.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Identity.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Blobs.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Common.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Files.Shares.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Azure.Storage.Queues.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Bcl.Cryptography.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.ClientModel.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.Data.SqlClient.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.Diagnostics.EventLog.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.IO.Hashing.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.Security.Cryptography.Pkcs.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/cs/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/de/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/es/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/fr/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/it/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ja/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ko/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/pl/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/ru/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/tr/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/unix/lib/net9.0/Microsoft.Data.SqlClient.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win/lib/net9.0/Microsoft.Data.SqlClient.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win-arm64/native/sni.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win-x64/native/sni.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win-x86/native/sni.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/unix/lib/net8.0/System.Data.SqlClient.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Data.SqlClient.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Diagnostics.EventLog.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.csproj.AssemblyReference.cache
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.AssemblyInfoInputs.cache
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.AssemblyInfo.cs
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.csproj.CoreCompileInputs.cache
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.MvcApplicationPartsAssemblyInfo.cache
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.RazorAssemblyInfo.cache
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.RazorAssemblyInfo.cs
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.sourcelink.json
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/scopedcss/bundle/ABC_Retail_Part1.styles.css
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/scopedcss/projectbundle/ABC_Retail_Part1.bundle.scp.css
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/e6wdb4s751-vn020b60nc.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/uad6lbxrnu-61n19gt1b8.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/xiq7yo1rjg-xtxxf3hu2r.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/6bdoz63ogl-t1cqhe9u97.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/cmp44va6cr-c2jlpeoesf.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/0b8lipbvvn-sejl45xvog.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/xg278vtwk5-aexeepp0ev.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/9ujngu71ge-xvp3kq03qx.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/5x1o0y0xby-ausgxo2sd3.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/m5wdl6ia4z-22vffe00uq.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/u2cwmawwze-cosvhxvwiu.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/u6gcjtj3ig-qesaa3a1fm.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/3xilx04cwe-fvhpjtyr6v.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/46qbvxpkf7-tmc1g35s3z.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ybb5lfyp6o-fsbi9cje9m.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/xl81rj882d-rxsg74s51o.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/k7x6vq6pe3-ee0r1s7dh0.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ma3aevt0i5-q9ht133ko3.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/aq18x4gc96-jd9uben2k1.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/t2poq43a5m-gye83jo8yx.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/q8psl7lcvt-r4e9w2rdcm.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ocv4nz0yky-wl58j5mj3v.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/t13fx0cv6x-c2oey78nd0.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/8ojb8h6tqm-d4r6k3f320.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/okmet832sx-j5mq2jizvt.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/0xhlvzovh4-keugtjm085.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/juiqc7c0cb-nvvlpmu67g.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/se8mhbgwl5-zub09dkrxp.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/izwyr2pn9c-pj5nd1wqec.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/hohf4voajr-43atpzeawx.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/o5krmajb31-v0zj4ognzu.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/eakf1m14pd-ynyaa8k90p.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/us35toly47-hrwsygsryq.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/zdnmmtpfgk-c63t5i9ira.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/rzup5riv06-ft3s53vfgj.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/exl6u9o4b6-4094rpi4f9.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/5l27ex4h61-6pdc2jztkx.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/g1smm38dqh-hd3gran6i8.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/7gakkdww0s-iovd86k7lj.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/zpdba3umrc-ltid2c489k.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/jt58p0ilf1-kbrnm935zg.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/x33w5ko0d1-8vyfqsqgz1.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/7jwydseh9q-y7v9cxd14o.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ffdkrltk58-u9q1upor1n.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/snhns7h78r-h1s4sie4z3.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ng9kyhxf46-4d85u1mtcx.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/9mpxioh2y0-0j3bgjxly4.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/kzwxtaz2py-03hjc8e09r.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ezurj042tw-48y08845bh.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/iud7los6ot-356vix0kms.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/f926m6g6ho-83jwlth58m.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/g55qz2zl3x-mrlpezrjn3.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/8x0y6qqdfv-worgj0nhwm.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/2oe6be93td-gk0pw8i4co.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/oe374zir5x-x0q3zqp4vz.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/wow16ikpnk-d6nrnj6jjx.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/1onmuj6ht3-m9qm4tazc0.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/01bazkrljw-ttgo8qnofa.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/ymx1n6ero1-jjsuc0puko.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/k51aafjeg6-9vr69e8ynj.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/v35w4cmnz5-87fc7y1x7t.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/wjsd3tzx3j-mlv21k5csn.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/slxb5q80ly-odehz9k7ys.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/compressed/eu6o0ztjok-odehz9k7ys.gz
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.build.json
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.development.json
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Reta.EA4C9661.Up2Date
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/refint/ABC_Retail_Part1.dll
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.pdb
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ABC_Retail_Part1.genruntimeconfig.cache
+/Users/samanthareddy/cloud part 3 /cloud /ABC_Retail_Part1 4/ABC_Retail_Part1/obj/Debug/net9.0/ref/ABC_Retail_Part1.dll

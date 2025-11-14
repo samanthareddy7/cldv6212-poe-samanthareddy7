@@ -13,25 +13,26 @@
 
     <table class="table table-bordered table-hover">
         <thead>
-            <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Actions</th>
-            </tr>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
         </thead>
         <tbody>
-            @foreach (var c in Model)
-            {
-                <tr>
-                    <td>@c.Name</td>
-                    <td>@c.Email</td>
-                    <td class="action-buttons">
-                        <a asp-action="Details" asp-route-rowKey="@c.RowKey" class="btn btn-details btn-sm">Details</a>
-                        <a asp-action="Edit" asp-route-rowKey="@c.RowKey" class="btn btn-edit btn-sm">Edit</a>
-                        <a asp-action="Delete" asp-route-rowKey="@c.RowKey" class="btn btn-delete btn-sm">Delete</a>
-                    </td>
-                </tr>
-            }
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.Name</td>
+                <td>@c.Email</td>
+                <td class="action-buttons">
+                    <a asp-action="Details" asp-route-rowKey="@c.RowKey" class="btn btn-details btn-sm">Details</a>
+                    @* Removed Edit and Delete buttons *@
+                    @* <a asp-action="Edit" asp-route-rowKey="@c.RowKey" class="btn btn-edit btn-sm">Edit</a> *@
+                    @* <a asp-action="Delete" asp-route-rowKey="@c.RowKey" class="btn btn-delete btn-sm">Delete</a> *@
+                </td>
+            </tr>
+        }
         </tbody>
     </table>
 </div>

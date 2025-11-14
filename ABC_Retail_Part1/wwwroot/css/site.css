@@ -271,3 +271,40 @@ h1, h2, h3, h4, h5, h6 {
 footer {
     display: none !important; /*hide footer */
 }
+
+/* Centered login/register card */
+.auth-card {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    background-color: #f8f9fa; /* light gray background */
+}
+
+.auth-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.auth-card .form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.auth-card .btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.auth-card .text-center a {
+    margin: 0 5px;
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.auth-card .text-center a:hover {
+    text-decoration: underline;
+}

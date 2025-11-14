@@ -1,7 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
   <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
     <ActiveDebugProfile>https</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>C:\Users\lab_services_student\source\repos\ABC_Retail_Part1 4\ABC_Retail_Part1\Properties\PublishProfiles\st10454507webapp - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <EnableCompressionInPublish>false</EnableCompressionInPublish>
   </PropertyGroup>
+
+  <ItemGroup>
+    <!-- SQL Client -->
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.0" />
+
+    <!-- JSON config reading -->
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0" />
+
+    <!-- Session support -->
+  </ItemGroup>
+
 </Project>

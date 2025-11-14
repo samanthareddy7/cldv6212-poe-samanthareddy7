@@ -1,5 +1,11 @@
-﻿@{
+﻿@using System.Text.Json
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
     ViewData["Title"] = "Home";
+
+    var userJson = HttpContextAccessor.HttpContext.Session.GetString("CurrentUser");
+    bool isLoggedIn = !string.IsNullOrEmpty(userJson);
 }
 
 <!-- Google Fonts -->
@@ -9,36 +15,84 @@
 
 <div class="dashboard-container">
     <!-- Customers -->
-    <a href="/Customer" class="dashboard-button">
-        <div class="button-image">
-            <img src="~/images/istockphoto-980667436-612x612.jpg" alt="Customers">
+    @if (isLoggedIn)
+    {
+        <a href="/Customer" class="dashboard-button">
+            <div class="button-image">
+                <img src="~/images/istockphoto-980667436-612x612.jpg" alt="Customers">
+            </div>
+            <span>Customers</span>
+        </a>
+    }
+    else
+    {
+        <div class="dashboard-button">
+            <div class="button-image">
+                <img src="~/images/istockphoto-980667436-612x612.jpg" alt="Customers">
+            </div>
+            <span>Customers</span>
         </div>
-        <span>Customers</span>
-    </a>
+    }
 
     <!-- Products -->
-    <a href="/Product" class="dashboard-button">
-        <div class="button-image">
-            <img src="~/images/3d0a639a53a2b1ab1cca50c35de29a5e.jpg" alt="Products">
+    @if (isLoggedIn)
+    {
+        <a href="/Product" class="dashboard-button">
+            <div class="button-image">
+                <img src="~/images/3d0a639a53a2b1ab1cca50c35de29a5e.jpg" alt="Products">
+            </div>
+            <span>Products</span>
+        </a>
+    }
+    else
+    {
+        <div class="dashboard-button">
+            <div class="button-image">
+                <img src="~/images/3d0a639a53a2b1ab1cca50c35de29a5e.jpg" alt="Products">
+            </div>
+            <span>Products</span>
         </div>
-        <span>Products</span>
-    </a>
+    }
 
     <!-- Orders -->
-    <a href="/Order" class="dashboard-button">
-        <div class="button-image">
-            <img src="~/images/0273a839714b331e11076f2fe2628191.jpg" alt="Orders">
+    @if (isLoggedIn)
+    {
+        <a href="/Order" class="dashboard-button">
+            <div class="button-image">
+                <img src="~/images/0273a839714b331e11076f2fe2628191.jpg" alt="Orders">
+            </div>
+            <span>Orders</span>
+        </a>
+    }
+    else
+    {
+        <div class="dashboard-button">
+            <div class="button-image">
+                <img src="~/images/0273a839714b331e11076f2fe2628191.jpg" alt="Orders">
+            </div>
+            <span>Orders</span>
         </div>
-        <span>Orders</span>
-    </a>
+    }
 
     <!-- Files -->
-    <a href="/Files/Upload" class="dashboard-button">
-        <div class="button-image">
-            <img src="~/images/97d48161ba9f10b1d4b013354c0541ed.jpg" alt="Files">
+    @if (isLoggedIn)
+    {
+        <a href="/Files/Upload" class="dashboard-button">
+            <div class="button-image">
+                <img src="~/images/97d48161ba9f10b1d4b013354c0541ed.jpg" alt="Files">
+            </div>
+            <span>Files</span>
+        </a>
+    }
+    else
+    {
+        <div class="dashboard-button">
+            <div class="button-image">
+                <img src="~/images/97d48161ba9f10b1d4b013354c0541ed.jpg" alt="Files">
+            </div>
+            <span>Files</span>
         </div>
-        <span>Files</span>
-    </a>
+    }
 </div>
 
 <style>
@@ -46,7 +100,7 @@
         font-family: 'Playfair Display', serif;
         text-align: center;
         margin-bottom: 40px;
-        color: #d4af37; /* elegant gold */
+        color: #d4af37;
         font-size: 3rem;
     }
 
@@ -65,8 +119,8 @@
         text-decoration: none;
         background-color: #fff;
         border-radius: 16px;
-        width: 250px; /* bigger size */
-        height: 250px; /* bigger size */
+        width: 250px;
+        height: 250px;
         overflow: hidden;
         transition: transform 0.25s, box-shadow 0.25s;
     }
@@ -77,12 +131,11 @@
         height: 100%;
     }
 
-        .button-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* makes image fill block */
-        }
-
+    .button-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
     .dashboard-button span {
         position: absolute;
@@ -92,7 +145,7 @@
         text-align: center;
         padding: 8px 0;
         background: rgba(0, 0, 0, 0.6);
-        color: #d4af37; /* gold */
+        color: #d4af37;
         font-family: 'Playfair Display', serif;
         font-size: 1.1rem;
         font-weight: bold;

@@ -1,0 +1,36 @@
+@using System.Text.Json
+@{
+    var userJson = Context.Session.GetString("CurrentUser");
+    string userName = null;
+    string role = null;
+
+    if (!string.IsNullOrEmpty(userJson))
+    {
+        var user = JsonSerializer.Deserialize<JsonElement>(userJson);
+        userName = user.GetProperty("Name").GetString();
+        role = user.GetProperty("Role").GetString();
+    }
+}
+
+<div class="d-flex align-items-center">
+    @if (string.IsNullOrEmpty(userName))
+    {
+        <!-- Guest view -->
+        <a asp-controller="Account" asp-action="Login" class="btn btn-link me-2">Login</a>
+        <a asp-controller="Account" asp-action="Register" class="btn btn-link">Register</a>
+    }
+    else
+    {
+        <!-- Logged-in user -->
+        <span class="me-2">
+            Hello <strong>@userName</strong>!
+            @if (role == "Admin")
+            {
+                <span class="badge bg-warning text-dark">Admin</span>
+            }
+        </span>
+        <form asp-controller="Account" asp-action="Logout" method="post" style="display:inline">
+            <button type="submit" class="btn btn-link p-0">Logout</button>
+        </form>
+    }
+</div>

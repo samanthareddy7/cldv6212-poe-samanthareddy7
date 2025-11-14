@@ -1,0 +1,65 @@
+@model List<ABC_Retail_Part1.Controllers.CartController.CartItem>
+@using System.Globalization
+
+<div class="container mt-4">
+    <h2 class="mb-4 text-center text-primary">🛒 Your Shopping Cart</h2>
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success text-center">
+            @TempData["Message"]
+        </div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger text-center">
+            @TempData["Error"]
+        </div>
+    }
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info text-center">
+            Your cart is empty — go add something nice!
+        </div>
+    }
+    else
+    {
+        <table class="table table-striped table-hover align-middle shadow-sm">
+            <thead class="table-primary">
+            <tr>
+                <th>Product</th>
+                <th class="text-center">Quantity</th>
+                <th class="text-end">Unit Price</th>
+                <th class="text-end">Total</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ProductName</td>
+                    <td class="text-center">@item.Quantity</td>
+                    <td class="text-end">@item.UnitPrice.ToString("C", CultureInfo.CurrentCulture)</td>
+                    <td class="text-end">@((item.Quantity * item.UnitPrice).ToString("C", CultureInfo.CurrentCulture))</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+
+        <div class="text-end mt-3">
+            <h4 class="fw-bold">
+                Grand Total:
+                <span class="text-success">
+                    @Model.Sum(i => i.Quantity * i.UnitPrice).ToString("C", CultureInfo.CurrentCulture)
+                </span>
+            </h4>
+        </div>
+
+        <div class="text-end mt-4">
+            <form asp-action="Checkout" method="post">
+                <button type="submit" class="btn btn-success btn-lg px-4">Proceed to Checkout</button>
+            </form>
+        </div>
+    }
+</div>

@@ -9,10 +9,10 @@
 <p><b>Product:</b> @Model.ProductName</p>
 <p><b>Quantity:</b> @Model.Quantity</p>
 <p><b>Order Date:</b> @Model.OrderDate?.ToString("yyyy-MM-dd HH:mm")</p>
-<p><b>RowKey:</b> @Model.RowKey</p>
+@*<p><b>RowKey:</b> @Model.RowKey</p>*@
 
 <p>
-    <a asp-action="Edit" asp-route-rowKey="@Model.RowKey" class="btn btn-primary">Edit</a>
-    <a asp-action="Delete" asp-route-rowKey="@Model.RowKey" class="btn btn-danger">Delete</a>
+    @*<a asp-action="Edit" asp-route-rowKey="@Model.RowKey" class="btn btn-primary">Edit</a>*@
+    @*<a asp-action="Delete" asp-route-rowKey="@Model.RowKey" class="btn btn-danger">Delete</a>*@
     <a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </p>

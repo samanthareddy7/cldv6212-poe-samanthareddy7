@@ -1,0 +1,27 @@
+@using System.Text.Json
+@{
+    ViewData["Title"] = "Checkout Successful";
+    Layout = "_Layout";
+
+    // Get current user from session
+    var userJson = Context.Session.GetString("CurrentUser");
+    string userName = null;
+    if (!string.IsNullOrEmpty(userJson))
+    {
+        var u = JsonSerializer.Deserialize<JsonElement>(userJson);
+        userName = u.GetProperty("Name").GetString();
+    }
+
+    string message = !string.IsNullOrEmpty(userName)
+        ? $"{userName}, your order has been placed successfully. Thank you for shopping with us!"
+        : "Your order has been placed successfully. Thank you for shopping with us!";
+}
+
+<div class="text-center mt-5">
+    <h2>✅ Checkout Successful</h2>
+    <p class="lead">@message</p>
+
+    <a asp-controller="Product" asp-action="Index" class="btn btn-primary mt-3">
+        Continue Shopping
+    </a>
+</div>

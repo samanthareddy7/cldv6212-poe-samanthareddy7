@@ -1,4 +1,17 @@
-﻿@model ABC_Retail_Part1.Models.OrderIndexViewModel
+﻿@using System.Text.Json
+@model ABC_Retail_Part1.Models.OrderIndexViewModel
+
+@{
+    ViewData["Title"] = "Orders";
+
+    var userJson = Context.Session.GetString("CurrentUser");
+    string role = null;
+    if (!string.IsNullOrEmpty(userJson))
+    {
+        var u = JsonSerializer.Deserialize<JsonElement>(userJson);
+        role = u.GetProperty("Role").GetString();
+    }
+}
 
 <h2>Orders</h2>
 
@@ -9,37 +22,42 @@
     </div>
 </form>
 
-<p>
-    <a asp-action="Create" class="btn btn-primary">Place Order</a>
-</p>
+@if (role != "Admin")
+{
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Place Order</a>
+    </p>
+}
 
 <table class="table table-bordered table-hover align-middle">
     <thead class="table-light">
-        <tr>
-            <th>Customer</th>
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Date</th>
-            <th>Status</th>
-            <th>Actions</th>
-        </tr>
+    <tr>
+        <th>Customer</th>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Date</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
     </thead>
     <tbody>
-        @foreach (var order in Model.Orders)
+    @foreach (var order in Model.Orders)
+    {
+        var colorClass = order.Status switch
         {
-            var colorClass = order.Status switch
-            {
-                "Confirmed" => "text-success fw-bold",
-                "Shipped" => "text-primary fw-bold",
-                _ => "text-warning fw-bold"
-            };
+            "Confirmed" => "text-success fw-bold",
+            "Shipped" => "text-primary fw-bold",
+            _ => "text-warning fw-bold"
+        };
 
-            <tr>
-                <td>@order.CustomerName</td>
-                <td>@order.ProductName</td>
-                <td>@order.Quantity</td>
-                <td>@order.OrderDate?.ToLocalTime().ToString("g")</td>
-                <td>
+        <tr>
+            <td>@order.CustomerName</td>
+            <td>@order.ProductName</td>
+            <td>@order.Quantity</td>
+            <td>@order.OrderDate?.ToLocalTime().ToString("g")</td>
+            <td>
+                @if (role == "Admin")
+                {
                     <form asp-action="UpdateStatus" method="post" class="d-flex">
                         <input type="hidden" name="rowKey" value="@order.RowKey" />
                         <select name="newStatus" class="form-select form-select-sm me-2">
@@ -49,31 +67,21 @@
                         </select>
                         <button type="submit" class="btn btn-sm btn-outline-secondary">Update</button>
                     </form>
-                </td>
-                <td class="action-buttons">
-                    <a asp-action="Details" asp-route-rowKey="@order.RowKey" class="btn btn-outline-info btn-sm">Details</a>
+                }
+                else
+                {
+                    <span class="@colorClass">@order.Status</span>
+                }
+            </td>
+            <td class="action-buttons">
+                <a asp-action="Details" asp-route-rowKey="@order.RowKey" class="btn btn-outline-info btn-sm">Details</a>
+                @if (role == "Admin")
+                {
                     <a asp-action="Edit" asp-route-rowKey="@order.RowKey" class="btn btn-outline-warning btn-sm">Edit</a>
                     <a asp-action="Delete" asp-route-rowKey="@order.RowKey" class="btn btn-outline-danger btn-sm">Delete</a>
-                </td>
-            </tr>
-        }
+                }
+            </td>
+        </tr>
+    }
     </tbody>
 </table>
-
-<hr />
-
-<h3>Queue Messages</h3>
-
-@if (Model.QueueMessages != null && Model.QueueMessages.Any())
-{
-    <ul class="list-group">
-        @foreach (var msg in Model.QueueMessages)
-        {
-            <li class="list-group-item">@msg</li>
-        }
-    </ul>
-}
-else
-{
-    <p>No queue messages yet.</p>
-}

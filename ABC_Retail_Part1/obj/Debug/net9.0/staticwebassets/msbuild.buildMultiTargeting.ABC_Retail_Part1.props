@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\ABC_Retail_Part1.props" />
-</Project>

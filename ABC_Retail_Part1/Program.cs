@@ -29,6 +29,16 @@ namespace ABC_Retail_Part1
             builder.Services.AddSingleton(new QueueService(connectionString));
             builder.Services.AddSingleton(new FileService(connectionString, functionsBaseUrl));
 
+            // Register session and IHttpContextAccessor
+            builder.Services.AddDistributedMemoryCache();
+            builder.Services.AddSession(options =>
+            {
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+                options.IdleTimeout = TimeSpan.FromHours(8); // not forcing login each page
+            });
+            builder.Services.AddHttpContextAccessor();
+
             var app = builder.Build();
 
             // Error handling
@@ -40,6 +50,7 @@ namespace ABC_Retail_Part1
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseSession();
             app.UseRouting();
             app.UseAuthorization();
 

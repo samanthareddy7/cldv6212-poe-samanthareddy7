@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@using System.Text.Json
+@using ABC_Retail_Part1.Controllers
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -10,53 +14,101 @@
     <link rel="stylesheet" href="~/ABC_Retail_Part1.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ABC_Retail_Part1</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ABC_Retail_Part1</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+
+                @* Determine current user role *@
+                @{
+                    var userJson = HttpContextAccessor.HttpContext.Session.GetString("CurrentUser");
+                    string role = null;
+                    if (!string.IsNullOrEmpty(userJson))
+                    {
+                        var u = JsonSerializer.Deserialize<JsonElement>(userJson);
+                        role = u.GetProperty("Role").GetString();
+                    }
+                }
+
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+
+                    @* Show admin-only links *@
+                    @if (role == "Admin")
+                    {
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="Customer" asp-action="Index">Customers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Product" asp-action="Index">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Order" asp-action="Index">Orders</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="Files" asp-action="Upload">Files</a>
                         </li>
-                        
-                    </ul>
+                    }
 
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-controller="Product" asp-action="Index">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-controller="Order" asp-action="Index">Orders</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex align-items-center">
+                    @await Html.PartialAsync("_LoginPartial")
+
+                    @* Cart button with badge *@
+                    @{
+                        var cartJson = HttpContextAccessor.HttpContext.Session.GetString("CartItems");
+                        int cartCount = 0;
+                        if (!string.IsNullOrEmpty(cartJson))
+                        {
+                            var cart = JsonSerializer.Deserialize<List<CartController.CartItem>>(cartJson);
+                            cartCount = cart?.Sum(c => c.Quantity) ?? 0;
+                        }
+                    }
+                    @if (cartCount > 0)
+                    {
+                        <a class="btn btn-outline-success ms-2 position-relative" asp-controller="Cart" asp-action="ViewCart">
+                            🛒 Cart
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                @cartCount
+                                <span class="visually-hidden">items in cart</span>
+                            </span>
+                        </a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-outline-secondary ms-2" asp-controller="Cart" asp-action="ViewCart">
+                            🛒 Cart
+                        </a>
+                    }
                 </div>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - ABC_Retail_Part1 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    </nav>
+</header>
+
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2025 - ABC_Retail_Part1 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
