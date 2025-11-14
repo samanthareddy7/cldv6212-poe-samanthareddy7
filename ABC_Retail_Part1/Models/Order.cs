@@ -14,6 +14,7 @@ namespace ABC_Retail_Part1.Models
         public string CustomerName { get; set; } = string.Empty;
         public string ProductName { get; set; } = string.Empty;
         public int Quantity { get; set; }
+        public string CustomerRowKey { get; set; } = string.Empty; 
 
         public string Status { get; set; } = "Pending";
     }

@@ -21,7 +21,6 @@ namespace ABC_Retail_Part1.Services
             return queue;
         }
 
-        // ✅ Send message via HTTP Function (not directly to Azure Queue)
         public async Task<bool> SendMessageAsync(string queueName, object message)
         {
             var json = JsonConvert.SerializeObject(message);
@@ -33,7 +32,6 @@ namespace ABC_Retail_Part1.Services
             return response.IsSuccessStatusCode;
         }
 
-        // ✅ Retrieve messages directly from Azure Queue
         public async Task<List<string>> GetMessagesAsync(string queueName, int maxMessages = 20, bool peekOnly = true)
         {
             var queue = GetQueue(queueName);
@@ -63,3 +61,4 @@ namespace ABC_Retail_Part1.Services
         }
     }
 }
+

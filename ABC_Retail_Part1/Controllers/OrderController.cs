@@ -3,6 +3,7 @@ using ABC_Retail_Part1.Models;
 using ABC_Retail_Part1.Services;
 using System;
 using System.Linq;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace ABC_Retail_Part1.Controllers
@@ -23,7 +24,20 @@ namespace ABC_Retail_Part1.Controllers
         // GET: Orders (with search)
         public async Task<IActionResult> Index(string searchTerm)
         {
-            var orders = await _tableService.GetAllAsync<Order>(TableName);
+        // get logged-in customer from session
+            var userJson = HttpContext.Session.GetString("CurrentUser");
+            var user = JsonSerializer.Deserialize<JsonElement>(userJson);
+            var role = user.GetProperty("Role").GetString();
+            var customerName = user.GetProperty("Name").GetString();
+
+         // get ALL orders first
+         var orders = await _tableService.GetAllAsync<Order>(TableName);
+
+         // apply filtering for customers ONLY
+            if (role != "Admin")
+            {
+                orders = orders.Where(o => o.CustomerName == customerName).ToList();
+            }
 
             if (!string.IsNullOrWhiteSpace(searchTerm))
             {

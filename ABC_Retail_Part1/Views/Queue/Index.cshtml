@@ -9,30 +9,30 @@
 <div style="background: linear-gradient(to right, #ffc0cb, #ffe6f0); padding: 20px; border-radius: 10px;">
     <table class="table table-striped table-bordered">
         <thead>
-            <tr>
-                <th>#</th>
-                <th>Message</th>
-            </tr>
+        <tr>
+            <th>#</th>
+            <th>Message</th>
+        </tr>
         </thead>
         <tbody>
-            @if (Model != null && Model.Any())
-            {
-                int index = 1;
-                foreach (var msg in Model)
-                {
-                    <tr>
-                        <td>@index</td>
-                        <td>@msg</td>
-                    </tr>
-                    index++;
-                }
-            }
-            else
+        @if (Model != null && Model.Any())
+        {
+            int index = 1;
+            foreach (var msg in Model)
             {
                 <tr>
-                    <td colspan="2">No messages in queue.</td>
+                    <td>@index</td>
+                    <td>@msg</td>
                 </tr>
+                index++;
             }
+        }
+        else
+        {
+            <tr>
+                <td colspan="2">No messages in queue.</td>
+            </tr>
+        }
         </tbody>
     </table>
 </div>

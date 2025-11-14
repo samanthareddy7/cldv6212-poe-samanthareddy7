@@ -6,21 +6,26 @@
 
     var userJson = Context.Session.GetString("CurrentUser");
     string role = null;
+    bool isLoggedIn = false;
+
     if (!string.IsNullOrEmpty(userJson))
     {
         var u = JsonSerializer.Deserialize<JsonElement>(userJson);
         role = u.GetProperty("Role").GetString();
+        isLoggedIn = true;
     }
 }
 
 <h2>Products</h2>
 
 <div class="table-card">
-    @* Show Add New Product only for non-admin users if needed, otherwise remove *@
-    @* You can remove this entirely if only admins should never see it *@
-    @* <p>
-        <a asp-action="Create" class="btn btn-primary">Add New Product</a>
-    </p> *@
+    @* Only Admins see "Add New Product" *@
+    @if (isLoggedIn && role == "Admin")
+    {
+        <p>
+            <a asp-action="Create" class="btn btn-primary">Add New Product</a>
+        </p>
+    }
 
     <table class="table table-bordered table-hover align-middle">
         <thead class="table-light">
@@ -46,10 +51,8 @@
                     }
                 </td>
                 <td class="action-buttons">
-                    @* Details button commented out
-                    @*<a asp-action="Details" asp-route-rowKey="@item.RowKey" class="btn btn-details btn-sm mb-1">🔍 Details</a>*@
-
-                    @if (role != "Admin")
+                    @* Only show Add to Cart for logged-in non-admin users *@
+                    @if (isLoggedIn && role != "Admin")
                     {
                         <form asp-controller="Cart" asp-action="AddToCart" method="post" style="display:flex; align-items:center; gap:5px; margin-top:5px;">
                             <input type="hidden" name="productId" value="@item.RowKey" />
@@ -57,9 +60,11 @@
                             <button type="submit" class="btn btn-primary btn-sm">🛒 Add to Cart</button>
                         </form>
                     }
-                    else
+                    @* Admins can edit/delete products here if you want *@
+                    @if (isLoggedIn && role == "Admin")
                     {
-                       @* <span class="text-muted">Admin view only</span> *@
+                        <a asp-action="Edit" asp-route-rowKey="@item.RowKey" class="btn btn-edit btn-sm mb-1">✏️ Edit</a>
+                        <a asp-action="Delete" asp-route-rowKey="@item.RowKey" class="btn btn-delete btn-sm mb-1">🗑️ Delete</a>
                     }
                 </td>
             </tr>

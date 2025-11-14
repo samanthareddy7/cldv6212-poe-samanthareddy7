@@ -40,7 +40,7 @@
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     </li>
 
-                    @* Show admin-only links *@
+                    @* Admin-only links *@
                     @if (role == "Admin")
                     {
                         <li class="nav-item">
@@ -51,12 +51,18 @@
                         </li>
                     }
 
+                    @* Always visible link *@
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-controller="Product" asp-action="Index">Products</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-controller="Order" asp-action="Index">Orders</a>
-                    </li>
+
+                    @* Orders visible for any logged-in user *@
+                    @if (!string.IsNullOrEmpty(role))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Order" asp-action="Index">Orders</a>
+                        </li>
+                    }
                 </ul>
 
                 <div class="d-flex align-items-center">

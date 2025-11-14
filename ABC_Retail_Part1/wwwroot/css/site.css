@@ -308,3 +308,27 @@ footer {
 .auth-card .text-center a:hover {
     text-decoration: underline;
 }
+
+.status-pending {
+    color: white;
+    background-color: #dc3545; /* Bootstrap red */
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.status-confirmed {
+    color: white;
+    background-color: #28a745; /* Bootstrap green */
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.status-shipped {
+    color: white;
+    background-color: #007bff; /* Bootstrap blue */
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+}

@@ -6,10 +6,27 @@
 
     var userJson = Context.Session.GetString("CurrentUser");
     string role = null;
+    string currentUserRowKey = null;
+
     if (!string.IsNullOrEmpty(userJson))
     {
         var u = JsonSerializer.Deserialize<JsonElement>(userJson);
         role = u.GetProperty("Role").GetString();
+
+        // Only read CustomerRowKey if user is NOT admin
+        if (role != "Admin" && u.TryGetProperty("CustomerRowKey", out var rowKeyProp))
+        {
+            // Must be stored as string in session
+            currentUserRowKey = rowKeyProp.GetString();
+        }
+    }
+
+    // FILTER ORDERS FOR NON-ADMINS
+    IEnumerable<ABC_Retail_Part1.Models.Order> filteredOrders = Model.Orders;
+
+    if (role != "Admin" && !string.IsNullOrEmpty(currentUserRowKey))
+    {
+        filteredOrders = Model.Orders.Where(o => o.CustomerRowKey == currentUserRowKey);
     }
 }
 
@@ -25,30 +42,33 @@
 @if (role != "Admin")
 {
     <p>
-        <a asp-action="Create" class="btn btn-primary">Place Order</a>
+        @* No create button for user *@
     </p>
 }
 
 <table class="table table-bordered table-hover align-middle">
     <thead class="table-light">
-    <tr>
-        <th>Customer</th>
-        <th>Product</th>
-        <th>Quantity</th>
-        <th>Date</th>
-        <th>Status</th>
-        <th>Actions</th>
-    </tr>
+        <tr>
+            <th>Customer</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
     </thead>
     <tbody>
-    @foreach (var order in Model.Orders)
+
+    @foreach (var order in filteredOrders)
     {
         var colorClass = order.Status switch
         {
-            "Confirmed" => "text-success fw-bold",
-            "Shipped" => "text-primary fw-bold",
-            _ => "text-warning fw-bold"
+            "Pending" => "status-pending",
+            "Confirmed" => "status-confirmed",
+            "Shipped" => "status-shipped",
+            _ => "status-warning"
         };
+
 
         <tr>
             <td>@order.CustomerName</td>
